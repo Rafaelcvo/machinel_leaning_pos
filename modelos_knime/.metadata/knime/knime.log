@@ -1,0 +1,29 @@
+2020-02-17 09:38:21,775 : ERROR : main :  : SWTUtilities :  :  : Unable to mark the KAP shell.
+2020-02-17 09:41:30,410 : WARN  : main :  : Node : CSV Reader : 2:1 : No settings available
+2020-02-17 09:42:18,870 : ERROR : KNIME-Worker-3-CSV Reader 2:1 :  : Node : CSV Reader : 2:1 : Execute failed: Encountered duplicate row ID "1"
+org.knime.core.util.DuplicateKeyException: Encountered duplicate row ID "1"
+	at org.knime.core.data.container.DataContainer.checkAsyncWriteThrowable(DataContainer.java:466)
+	at org.knime.core.data.container.DataContainer.close(DataContainer.java:574)
+	at org.knime.core.node.ExecutionContext.createBufferedDataTable(ExecutionContext.java:268)
+	at org.knime.base.node.io.csvreader.CSVReaderNodeModel.execute(CSVReaderNodeModel.java:130)
+	at org.knime.core.node.NodeModel.execute(NodeModel.java:737)
+	at org.knime.core.node.NodeModel.executeModel(NodeModel.java:571)
+	at org.knime.core.node.Node.invokeFullyNodeModelExecute(Node.java:1236)
+	at org.knime.core.node.Node.execute(Node.java:1016)
+	at org.knime.core.node.workflow.NativeNodeContainer.performExecuteNode(NativeNodeContainer.java:557)
+	at org.knime.core.node.exec.LocalNodeExecutionJob.mainExecute(LocalNodeExecutionJob.java:95)
+	at org.knime.core.node.workflow.NodeExecutionJob.internalRun(NodeExecutionJob.java:218)
+	at org.knime.core.node.workflow.NodeExecutionJob.run(NodeExecutionJob.java:124)
+	at org.knime.core.util.ThreadUtils$RunnableWithContextImpl.runWithContext(ThreadUtils.java:334)
+	at org.knime.core.util.ThreadUtils$RunnableWithContext.run(ThreadUtils.java:210)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at org.knime.core.util.ThreadPool$MyFuture.run(ThreadPool.java:123)
+	at org.knime.core.util.ThreadPool$Worker.run(ThreadPool.java:246)
+Caused by: org.knime.core.util.DuplicateKeyException: Encountered duplicate row ID "1"
+	at org.knime.core.data.container.DataContainer.addRowKeyForDuplicateCheck(DataContainer.java:848)
+	at org.knime.core.data.container.DataContainer$ContainerRunnable.run(DataContainer.java:1231)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2020-02-17 09:59:59,073 : WARN  : main :  : Node : Column Rename : 2:3 : No configuration available
