@@ -27,3 +27,5 @@ Caused by: org.knime.core.util.DuplicateKeyException: Encountered duplicate row 
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
 2020-02-17 09:59:59,073 : WARN  : main :  : Node : Column Rename : 2:3 : No configuration available
+2020-02-19 13:38:55,179 : WARN  : ModalContext :  : Node : Hierarchical Clustering : 2:11 : No column included!
+2020-02-19 13:38:55,192 : WARN  : ModalContext :  : Node : Hierarchical Clustering : 2:11 : No numeric columns in input table

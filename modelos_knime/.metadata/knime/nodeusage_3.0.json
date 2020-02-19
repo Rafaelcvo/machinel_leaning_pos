@@ -26,6 +26,22 @@
                 "nrfails": 0,
                 "exectime": 5,
                 "nrcreated": 1,
+                "successor": "org.knime.base.node.preproc.pmml.missingval.compute.MissingValueHandlerNodeFactory#Missing Value"
+            },
+            {
+                "id": "org.knime.base.node.preproc.filter.missingvaluecolfilter.MissingValueColumnFilterNodeFactory#Missing Value Column Filter",
+                "nrexecs": 0,
+                "nrfails": 0,
+                "exectime": 0,
+                "nrcreated": 1,
+                "successor": "n/a"
+            },
+            {
+                "id": "org.knime.base.node.preproc.pmml.missingval.compute.MissingValueHandlerNodeFactory#Missing Value",
+                "nrexecs": 1,
+                "nrfails": 0,
+                "exectime": 1823,
+                "nrcreated": 1,
                 "successor": "n/a"
             }
         ],
@@ -34,14 +50,14 @@
         "wrappedNodes": {
         }
     },
-    "uptime": 2871428,
-    "workflowsOpened": 0,
+    "uptime": 3107984,
+    "workflowsOpened": 2,
     "remoteWorkflowsOpened": 0,
     "workflowsImported": 0,
     "workflowsExported": 0,
-    "launches": 1,
+    "launches": 3,
     "lastApplicationID": "org.knime.product.KNIME_APPLICATION",
-    "timeSinceLastStart": 2871428,
+    "timeSinceLastStart": 1273260,
     "crashes": 0,
     "properlyShutDown": true
 }

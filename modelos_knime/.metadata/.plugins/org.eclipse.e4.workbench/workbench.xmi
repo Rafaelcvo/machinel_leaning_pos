@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="ASCII"?>
 <application:Application xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:advanced="http://www.eclipse.org/ui/2010/UIModel/application/ui/advanced" xmlns:application="http://www.eclipse.org/ui/2010/UIModel/application" xmlns:basic="http://www.eclipse.org/ui/2010/UIModel/application/ui/basic" xmlns:menu="http://www.eclipse.org/ui/2010/UIModel/application/ui/menu" xmi:id="_XrXqAVGCEeqkzMBdeMoFGw" elementId="org.eclipse.e4.legacy.ide.application" contributorURI="platform:/plugin/org.eclipse.ui.workbench" selectedElement="_XrYREFGCEeqkzMBdeMoFGw" bindingContexts="_XrYRFlGCEeqkzMBdeMoFGw">
-  <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xA;&lt;workbench>&#xA;&lt;mruList>&#xA;&lt;file factoryID=&quot;org.eclipse.ui.ide.FileStoreEditorInputFactory&quot; id=&quot;org.knime.workbench.editor.WorkflowEditor&quot; name=&quot;workflow.knime&quot; tooltip=&quot;knime://LOCAL/previsao_notas/workflow.knime&quot;>&#xA;&lt;persistable uri=&quot;knime://LOCAL/previsao_notas/workflow.knime&quot;/>&#xA;&lt;/file>&#xA;&lt;/mruList>&#xA;&lt;/workbench>"/>
+  <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xA;&lt;workbench>&#xA;&lt;mruList>&#xA;&lt;file factoryID=&quot;org.eclipse.ui.ide.FileStoreEditorInputFactory&quot; id=&quot;org.knime.workbench.editor.WorkflowEditor&quot; name=&quot;workflow.knime&quot; tooltip=&quot;knime://LOCAL/KNIME_Convenio%201/workflow.knime&quot;>&#xA;&lt;persistable uri=&quot;knime://LOCAL/KNIME_Convenio%201/workflow.knime&quot;/>&#xA;&lt;/file>&#xA;&lt;file factoryID=&quot;org.eclipse.ui.ide.FileStoreEditorInputFactory&quot; id=&quot;org.knime.workbench.editor.WorkflowEditor&quot; name=&quot;workflow.knime&quot; tooltip=&quot;knime://LOCAL/aula2/workflow.knime&quot;>&#xA;&lt;persistable uri=&quot;knime://LOCAL/aula2/workflow.knime&quot;/>&#xA;&lt;/file>&#xA;&lt;file factoryID=&quot;org.eclipse.ui.ide.FileStoreEditorInputFactory&quot; id=&quot;org.knime.workbench.editor.WorkflowEditor&quot; name=&quot;workflow.knime&quot; tooltip=&quot;knime://LOCAL/previsao_notas/workflow.knime&quot;>&#xA;&lt;persistable uri=&quot;knime://LOCAL/previsao_notas/workflow.knime&quot;/>&#xA;&lt;/file>&#xA;&lt;/mruList>&#xA;&lt;/workbench>"/>
   <tags>activeSchemeId:org.eclipse.ui.defaultAcceleratorConfiguration</tags>
   <tags>ModelMigrationProcessor.001</tags>
   <children xsi:type="basic:TrimmedWindow" xmi:id="_XrYREFGCEeqkzMBdeMoFGw" elementId="IDEWindow" contributorURI="platform:/plugin/org.eclipse.ui.workbench" selectedElement="_YlOqMFGCEeqkzMBdeMoFGw" x="2000" y="251" width="162" height="58">
@@ -40,13 +40,15 @@
           <tags>persp.perspSC:org.knime.workbench.ui.ModellerPerspective</tags>
           <tags>persp.newWizSC:org.knime.workbench.explorer.view.actions.NewWorkflowWizard</tags>
           <tags>persp.newWizSC:org.knime.workbench.explorer.view.actions.NewWorkflowGroupWizard</tags>
+          <tags>persp.actionSet:org.eclipse.ui.edit.text.actionSet.convertLineDelimitersTo</tags>
+          <tags>persp.actionSet:org.eclipse.ui.actionSet.openFiles</tags>
           <children xsi:type="basic:PartSashContainer" xmi:id="_Y-dpkVGCEeqkzMBdeMoFGw" selectedElement="_Y-eQpVGCEeqkzMBdeMoFGw" horizontal="true">
             <children xsi:type="basic:PartSashContainer" xmi:id="_Y-dpklGCEeqkzMBdeMoFGw" containerData="3000" selectedElement="_Y-eQoFGCEeqkzMBdeMoFGw">
-              <children xsi:type="basic:PartStack" xmi:id="_Y-dpk1GCEeqkzMBdeMoFGw" elementId="org.knime.workbench.explorer.viewMStack" containerData="3000" selectedElement="_Y-dplFGCEeqkzMBdeMoFGw">
+              <children xsi:type="basic:PartStack" xmi:id="_Y-dpk1GCEeqkzMBdeMoFGw" elementId="org.knime.workbench.explorer.viewMStack" containerData="4152" selectedElement="_Y-dplFGCEeqkzMBdeMoFGw">
                 <tags>noFocus</tags>
                 <children xsi:type="advanced:Placeholder" xmi:id="_Y-dplFGCEeqkzMBdeMoFGw" elementId="org.knime.workbench.explorer.view" ref="_Y-PnIFGCEeqkzMBdeMoFGw"/>
               </children>
-              <children xsi:type="basic:PartSashContainer" xmi:id="_Y-eQoFGCEeqkzMBdeMoFGw" containerData="7000" selectedElement="_Y-eQoVGCEeqkzMBdeMoFGw">
+              <children xsi:type="basic:PartSashContainer" xmi:id="_Y-eQoFGCEeqkzMBdeMoFGw" containerData="5848" selectedElement="_Y-eQo1GCEeqkzMBdeMoFGw">
                 <children xsi:type="basic:PartStack" xmi:id="_Y-eQoVGCEeqkzMBdeMoFGw" elementId="org.knime.workbench.workflowcoach.viewMStack" containerData="5228" selectedElement="_Y-eQolGCEeqkzMBdeMoFGw">
                   <children xsi:type="advanced:Placeholder" xmi:id="_Y-eQolGCEeqkzMBdeMoFGw" elementId="org.knime.workbench.workflowcoach.view" ref="_Y-W74FGCEeqkzMBdeMoFGw"/>
                 </children>
@@ -110,13 +112,13 @@
         <tags>org.eclipse.e4.primaryDataStack</tags>
         <tags>EditorStack</tags>
         <tags>active</tags>
-        <children xsi:type="basic:Part" xmi:id="_wJ0V4FGCEeqkzMBdeMoFGw" elementId="org.eclipse.e4.ui.compatibility.editor" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityEditor" label="2: previsao_notas" iconURI="platform:/plugin/org.knime.workbench.editor/icons/knime.png" closeable="true">
-          <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xA;&lt;editor id=&quot;org.knime.workbench.editor.WorkflowEditor&quot; name=&quot;workflow.knime&quot; partName=&quot;2: previsao_notas&quot; title=&quot;2: previsao_notas&quot; tooltip=&quot;2: previsao_notas&quot;>&#xA;&lt;input factoryID=&quot;org.eclipse.ui.ide.FileStoreEditorInputFactory&quot; uri=&quot;knime://LOCAL/previsao_notas/workflow.knime&quot;/>&#xA;&lt;/editor>"/>
+        <children xsi:type="basic:Part" xmi:id="_wJ0V4FGCEeqkzMBdeMoFGw" elementId="org.eclipse.e4.ui.compatibility.editor" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityEditor" label="0: previsao_notas" iconURI="platform:/plugin/org.knime.workbench.editor/icons/knime.png" closeable="true">
+          <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xA;&lt;editor id=&quot;org.knime.workbench.editor.WorkflowEditor&quot; name=&quot;workflow.knime&quot; partName=&quot;0: previsao_notas&quot; title=&quot;0: previsao_notas&quot; tooltip=&quot;0: previsao_notas&quot;>&#xA;&lt;input factoryID=&quot;org.eclipse.ui.ide.FileStoreEditorInputFactory&quot; uri=&quot;knime://LOCAL/previsao_notas/workflow.knime&quot;/>&#xA;&lt;/editor>"/>
           <tags>Editor</tags>
           <tags>org.knime.workbench.editor.WorkflowEditor</tags>
           <tags>removeOnHide</tags>
-          <tags>active</tags>
           <tags>activeOnClose</tags>
+          <tags>active</tags>
         </children>
       </children>
     </sharedElements>
