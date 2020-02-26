@@ -29,3 +29,9 @@ Caused by: org.knime.core.util.DuplicateKeyException: Encountered duplicate row 
 2020-02-17 09:59:59,073 : WARN  : main :  : Node : Column Rename : 2:3 : No configuration available
 2020-02-19 13:38:55,179 : WARN  : ModalContext :  : Node : Hierarchical Clustering : 2:11 : No column included!
 2020-02-19 13:38:55,192 : WARN  : ModalContext :  : Node : Hierarchical Clustering : 2:11 : No numeric columns in input table
+2020-02-25 21:32:53,319 : WARN  : main :  : Node : Partitioning : 0:5 : No sampling method selected
+2020-02-25 21:36:49,857 : WARN  : main :  : Node : Gradient Boosted Trees Learner (Regression) : 0:7 : No configuration available
+2020-02-25 21:43:41,254 : WARN  : main :  : Node : Random Forest Learner (Regression) : 0:9 : No configuration available
+2020-02-25 21:51:46,361 : WARN  : main :  : Node : Scorer : 0:11 : No columns selected yet.
+2020-02-25 21:54:22,930 : WARN  : KNIME-Worker-25-Scorer 0:11 :  : Node : Scorer : 0:11 : Execution canceled
+2020-02-25 21:56:21,057 : WARN  : main :  : Node : ROC Curve (local) : 0:12 : No curves defined
