@@ -1,0 +1,2 @@
+/home/rafael/git/machinel_leaning_pos/dataset/test.csv
+/home/rafael/git/machinel_leaning_pos/dataset/train.csv

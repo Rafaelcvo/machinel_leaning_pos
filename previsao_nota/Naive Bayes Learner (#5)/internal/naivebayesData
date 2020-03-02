@@ -1,0 +1,1685 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config xmlns="http://www.knime.org/2008/09/XMLConfig" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.knime.org/2008/09/XMLConfig http://www.knime.org/XMLConfig_2008_09.xsd" key="naivebayesDataModel">
+<entry key="ClassColumnName" type="xstring" value="NU_NOTA_MT [Binned]"/>
+<config key="ClassColumnType">
+<entry key="cell_class" type="xstring" value="org.knime.core.data.def.StringCell"/>
+<entry key="is_null" type="xboolean" value="false"/>
+</config>
+<entry key="skipMissingVals" type="xboolean" value="false"/>
+<entry key="Threshold" type="xdouble" value="1.0E-4"/>
+<config key="SkippedAttributes">
+<entry key="SkippedAttributesCounter" type="xint" value="0"/>
+</config>
+<config key="AttributeModelSection">
+<entry key="AttributeModelCounter" type="xint" value="22"/>
+<config key="AttributeModelData_0">
+<entry key="attributeName" type="xstring" value="NU_NOTA_CN"/>
+<entry key="type" type="xstring" value="NumericalModel"/>
+<entry key="skipMissingVals" type="xboolean" value="false"/>
+<entry key="numberOfMissingValues" type="xint" value="0"/>
+<entry key="invalidCause" type="xstring" isnull="true" value=""/>
+<config key="data">
+<entry key="noOfClasses" type="xlong" value="5"/>
+<config key="classValueData_0">
+<entry key="classValue" type="xstring" value="Bin 4"/>
+<entry key="MissingValCounter" type="xlong" value="0"/>
+<entry key="noOfRows" type="xlong" value="1491"/>
+<entry key="mean" type="xdouble" value="541.1112005365535"/>
+<entry key="sd" type="xdouble" value="76.97018695464439"/>
+</config>
+<config key="classValueData_1">
+<entry key="classValue" type="xstring" value="Bin 3"/>
+<entry key="MissingValCounter" type="xlong" value="0"/>
+<entry key="noOfRows" type="xlong" value="6412"/>
+<entry key="mean" type="xdouble" value="458.76558016219656"/>
+<entry key="sd" type="xdouble" value="63.99165860858293"/>
+</config>
+<config key="classValueData_2">
+<entry key="classValue" type="xstring" value="Bin 2"/>
+<entry key="MissingValCounter" type="xlong" value="0"/>
+<entry key="noOfRows" type="xlong" value="1087"/>
+<entry key="mean" type="xdouble" value="437.4976080956762"/>
+<entry key="sd" type="xdouble" value="56.03853016914759"/>
+</config>
+<config key="classValueData_3">
+<entry key="classValue" type="xstring" value="Bin 1"/>
+<entry key="MissingValCounter" type="xlong" value="0"/>
+<entry key="noOfRows" type="xlong" value="3234"/>
+<entry key="mean" type="xdouble" value="31.250000000000043"/>
+<entry key="sd" type="xdouble" value="116.54322186483152"/>
+</config>
+<config key="classValueData_4">
+<entry key="classValue" type="xstring" value="Bin 5"/>
+<entry key="MissingValCounter" type="xlong" value="0"/>
+<entry key="noOfRows" type="xlong" value="133"/>
+<entry key="mean" type="xdouble" value="659.5436090225564"/>
+<entry key="sd" type="xdouble" value="79.619968899029"/>
+</config>
+</config>
+</config>
+<config key="AttributeModelData_1">
+<entry key="attributeName" type="xstring" value="NU_NOTA_CH"/>
+<entry key="type" type="xstring" value="NumericalModel"/>
+<entry key="skipMissingVals" type="xboolean" value="false"/>
+<entry key="numberOfMissingValues" type="xint" value="0"/>
+<entry key="invalidCause" type="xstring" isnull="true" value=""/>
+<config key="data">
+<entry key="noOfClasses" type="xlong" value="5"/>
+<config key="classValueData_0">
+<entry key="classValue" type="xstring" value="Bin 4"/>
+<entry key="MissingValCounter" type="xlong" value="0"/>
+<entry key="noOfRows" type="xlong" value="1491"/>
+<entry key="mean" type="xdouble" value="592.4690140845075"/>
+<entry key="sd" type="xdouble" value="66.15140112985837"/>
+</config>
+<config key="classValueData_1">
+<entry key="classValue" type="xstring" value="Bin 3"/>
+<entry key="MissingValCounter" type="xlong" value="0"/>
+<entry key="noOfRows" type="xlong" value="6412"/>
+<entry key="mean" type="xdouble" value="517.5839363693079"/>
+<entry key="sd" type="xdouble" value="73.90418031868582"/>
+</config>
+<config key="classValueData_2">
+<entry key="classValue" type="xstring" value="Bin 2"/>
+<entry key="MissingValCounter" type="xlong" value="0"/>
+<entry key="noOfRows" type="xlong" value="1087"/>
+<entry key="mean" type="xdouble" value="488.882520699172"/>
+<entry key="sd" type="xdouble" value="70.95730623024224"/>
+</config>
+<config key="classValueData_3">
+<entry key="classValue" type="xstring" value="Bin 1"/>
+<entry key="MissingValCounter" type="xlong" value="0"/>
+<entry key="noOfRows" type="xlong" value="3234"/>
+<entry key="mean" type="xdouble" value="34.327365491651214"/>
+<entry key="sd" type="xdouble" value="127.87570225328986"/>
+</config>
+<config key="classValueData_4">
+<entry key="classValue" type="xstring" value="Bin 5"/>
+<entry key="MissingValCounter" type="xlong" value="0"/>
+<entry key="noOfRows" type="xlong" value="133"/>
+<entry key="mean" type="xdouble" value="662.0127819548873"/>
+<entry key="sd" type="xdouble" value="74.59759563670839"/>
+</config>
+</config>
+</config>
+<config key="AttributeModelData_2">
+<entry key="attributeName" type="xstring" value="NU_NOTA_LC"/>
+<entry key="type" type="xstring" value="NumericalModel"/>
+<entry key="skipMissingVals" type="xboolean" value="false"/>
+<entry key="numberOfMissingValues" type="xint" value="0"/>
+<entry key="invalidCause" type="xstring" isnull="true" value=""/>
+<config key="data">
+<entry key="noOfClasses" type="xlong" value="5"/>
+<config key="classValueData_0">
+<entry key="classValue" type="xstring" value="Bin 4"/>
+<entry key="MissingValCounter" type="xlong" value="0"/>
+<entry key="noOfRows" type="xlong" value="1491"/>
+<entry key="mean" type="xdouble" value="568.9944332662625"/>
+<entry key="sd" type="xdouble" value="59.13918892728623"/>
+</config>
+<config key="classValueData_1">
+<entry key="classValue" type="xstring" value="Bin 3"/>
+<entry key="MissingValCounter" type="xlong" value="0"/>
+<entry key="noOfRows" type="xlong" value="6412"/>
+<entry key="mean" type="xdouble" value="508.9087492202137"/>
+<entry key="sd" type="xdouble" value="61.596771595326985"/>
+</config>
+<config key="classValueData_2">
+<entry key="classValue" type="xstring" value="Bin 2"/>
+<entry key="MissingValCounter" type="xlong" value="0"/>
+<entry key="noOfRows" type="xlong" value="1087"/>
+<entry key="mean" type="xdouble" value="479.11784728610877"/>
+<entry key="sd" type="xdouble" value="59.81389518223741"/>
+</config>
+<config key="classValueData_3">
+<entry key="classValue" type="xstring" value="Bin 1"/>
+<entry key="MissingValCounter" type="xlong" value="0"/>
+<entry key="noOfRows" type="xlong" value="3234"/>
+<entry key="mean" type="xdouble" value="0.40708101422387"/>
+<entry key="sd" type="xdouble" value="13.562829791272831"/>
+</config>
+<config key="classValueData_4">
+<entry key="classValue" type="xstring" value="Bin 5"/>
+<entry key="MissingValCounter" type="xlong" value="0"/>
+<entry key="noOfRows" type="xlong" value="133"/>
+<entry key="mean" type="xdouble" value="626.636090225564"/>
+<entry key="sd" type="xdouble" value="59.87045147946885"/>
+</config>
+</config>
+</config>
+<config key="AttributeModelData_3">
+<entry key="attributeName" type="xstring" value="NU_NOTA_MT"/>
+<entry key="type" type="xstring" value="NumericalModel"/>
+<entry key="skipMissingVals" type="xboolean" value="false"/>
+<entry key="numberOfMissingValues" type="xint" value="0"/>
+<entry key="invalidCause" type="xstring" isnull="true" value=""/>
+<config key="data">
+<entry key="noOfClasses" type="xlong" value="5"/>
+<config key="classValueData_0">
+<entry key="classValue" type="xstring" value="Bin 4"/>
+<entry key="MissingValCounter" type="xlong" value="0"/>
+<entry key="noOfRows" type="xlong" value="1491"/>
+<entry key="mean" type="xdouble" value="636.2289067739766"/>
+<entry key="sd" type="xdouble" value="49.31368654457033"/>
+</config>
+<config key="classValueData_1">
+<entry key="classValue" type="xstring" value="Bin 3"/>
+<entry key="MissingValCounter" type="xlong" value="0"/>
+<entry key="noOfRows" type="xlong" value="6412"/>
+<entry key="mean" type="xdouble" value="461.4534310667489"/>
+<entry key="sd" type="xdouble" value="51.14377496275912"/>
+</config>
+<config key="classValueData_2">
+<entry key="classValue" type="xstring" value="Bin 2"/>
+<entry key="MissingValCounter" type="xlong" value="0"/>
+<entry key="noOfRows" type="xlong" value="1087"/>
+<entry key="mean" type="xdouble" value="362.46835326586955"/>
+<entry key="sd" type="xdouble" value="12.68718743465863"/>
+</config>
+<config key="classValueData_3">
+<entry key="classValue" type="xstring" value="Bin 1"/>
+<entry key="MissingValCounter" type="xlong" value="0"/>
+<entry key="noOfRows" type="xlong" value="3234"/>
+<entry key="mean" type="xdouble" value="0.0"/>
+<entry key="sd" type="xdouble" value="1.0E-4"/>
+</config>
+<config key="classValueData_4">
+<entry key="classValue" type="xstring" value="Bin 5"/>
+<entry key="MissingValCounter" type="xlong" value="0"/>
+<entry key="noOfRows" type="xlong" value="133"/>
+<entry key="mean" type="xdouble" value="812.9203007518797"/>
+<entry key="sd" type="xdouble" value="42.487174106372706"/>
+</config>
+</config>
+</config>
+<config key="AttributeModelData_4">
+<entry key="attributeName" type="xstring" value="TP_STATUS_REDACAO"/>
+<entry key="type" type="xstring" value="NumericalModel"/>
+<entry key="skipMissingVals" type="xboolean" value="false"/>
+<entry key="numberOfMissingValues" type="xint" value="0"/>
+<entry key="invalidCause" type="xstring" isnull="true" value=""/>
+<config key="data">
+<entry key="noOfClasses" type="xlong" value="5"/>
+<config key="classValueData_0">
+<entry key="classValue" type="xstring" value="Bin 4"/>
+<entry key="MissingValCounter" type="xlong" value="0"/>
+<entry key="noOfRows" type="xlong" value="1491"/>
+<entry key="mean" type="xdouble" value="1.0342052313883288"/>
+<entry key="sd" type="xdouble" value="0.4329201091876621"/>
+</config>
+<config key="classValueData_1">
+<entry key="classValue" type="xstring" value="Bin 3"/>
+<entry key="MissingValCounter" type="xlong" value="0"/>
+<entry key="noOfRows" type="xlong" value="6412"/>
+<entry key="mean" type="xdouble" value="1.109014348097317"/>
+<entry key="sd" type="xdouble" value="0.7306809889685039"/>
+</config>
+<config key="classValueData_2">
+<entry key="classValue" type="xstring" value="Bin 2"/>
+<entry key="MissingValCounter" type="xlong" value="0"/>
+<entry key="noOfRows" type="xlong" value="1087"/>
+<entry key="mean" type="xdouble" value="1.149954001839925"/>
+<entry key="sd" type="xdouble" value="0.8066011595969026"/>
+</config>
+<config key="classValueData_3">
+<entry key="classValue" type="xstring" value="Bin 1"/>
+<entry key="MissingValCounter" type="xlong" value="0"/>
+<entry key="noOfRows" type="xlong" value="3234"/>
+<entry key="mean" type="xdouble" value="0.0034013605442176896"/>
+<entry key="sd" type="xdouble" value="0.08427670286528773"/>
+</config>
+<config key="classValueData_4">
+<entry key="classValue" type="xstring" value="Bin 5"/>
+<entry key="MissingValCounter" type="xlong" value="0"/>
+<entry key="noOfRows" type="xlong" value="133"/>
+<entry key="mean" type="xdouble" value="1.0601503759398498"/>
+<entry key="sd" type="xdouble" value="0.5039149533860547"/>
+</config>
+</config>
+</config>
+<config key="AttributeModelData_5">
+<entry key="attributeName" type="xstring" value="NU_NOTA_COMP1"/>
+<entry key="type" type="xstring" value="NumericalModel"/>
+<entry key="skipMissingVals" type="xboolean" value="false"/>
+<entry key="numberOfMissingValues" type="xint" value="0"/>
+<entry key="invalidCause" type="xstring" isnull="true" value=""/>
+<config key="data">
+<entry key="noOfClasses" type="xlong" value="5"/>
+<config key="classValueData_0">
+<entry key="classValue" type="xstring" value="Bin 4"/>
+<entry key="MissingValCounter" type="xlong" value="0"/>
+<entry key="noOfRows" type="xlong" value="1491"/>
+<entry key="mean" type="xdouble" value="134.36619718309882"/>
+<entry key="sd" type="xdouble" value="25.00840202889711"/>
+</config>
+<config key="classValueData_1">
+<entry key="classValue" type="xstring" value="Bin 3"/>
+<entry key="MissingValCounter" type="xlong" value="0"/>
+<entry key="noOfRows" type="xlong" value="6412"/>
+<entry key="mean" type="xdouble" value="117.59279475982554"/>
+<entry key="sd" type="xdouble" value="29.168334387647274"/>
+</config>
+<config key="classValueData_2">
+<entry key="classValue" type="xstring" value="Bin 2"/>
+<entry key="MissingValCounter" type="xlong" value="0"/>
+<entry key="noOfRows" type="xlong" value="1087"/>
+<entry key="mean" type="xdouble" value="109.31646734130643"/>
+<entry key="sd" type="xdouble" value="30.876411625629576"/>
+</config>
+<config key="classValueData_3">
+<entry key="classValue" type="xstring" value="Bin 1"/>
+<entry key="MissingValCounter" type="xlong" value="0"/>
+<entry key="noOfRows" type="xlong" value="3234"/>
+<entry key="mean" type="xdouble" value="0.22881880024737222"/>
+<entry key="sd" type="xdouble" value="4.981582972364583"/>
+</config>
+<config key="classValueData_4">
+<entry key="classValue" type="xstring" value="Bin 5"/>
+<entry key="MissingValCounter" type="xlong" value="0"/>
+<entry key="noOfRows" type="xlong" value="133"/>
+<entry key="mean" type="xdouble" value="151.27819548872182"/>
+<entry key="sd" type="xdouble" value="26.210497949861164"/>
+</config>
+</config>
+</config>
+<config key="AttributeModelData_6">
+<entry key="attributeName" type="xstring" value="NU_NOTA_COMP2"/>
+<entry key="type" type="xstring" value="NumericalModel"/>
+<entry key="skipMissingVals" type="xboolean" value="false"/>
+<entry key="numberOfMissingValues" type="xint" value="0"/>
+<entry key="invalidCause" type="xstring" isnull="true" value=""/>
+<config key="data">
+<entry key="noOfClasses" type="xlong" value="5"/>
+<config key="classValueData_0">
+<entry key="classValue" type="xstring" value="Bin 4"/>
+<entry key="MissingValCounter" type="xlong" value="0"/>
+<entry key="noOfRows" type="xlong" value="1491"/>
+<entry key="mean" type="xdouble" value="131.0798122065728"/>
+<entry key="sd" type="xdouble" value="32.3587431246797"/>
+</config>
+<config key="classValueData_1">
+<entry key="classValue" type="xstring" value="Bin 3"/>
+<entry key="MissingValCounter" type="xlong" value="0"/>
+<entry key="noOfRows" type="xlong" value="6412"/>
+<entry key="mean" type="xdouble" value="108.80708047411066"/>
+<entry key="sd" type="xdouble" value="31.788659168742097"/>
+</config>
+<config key="classValueData_2">
+<entry key="classValue" type="xstring" value="Bin 2"/>
+<entry key="MissingValCounter" type="xlong" value="0"/>
+<entry key="noOfRows" type="xlong" value="1087"/>
+<entry key="mean" type="xdouble" value="99.79116835326596"/>
+<entry key="sd" type="xdouble" value="33.00540715810617"/>
+</config>
+<config key="classValueData_3">
+<entry key="classValue" type="xstring" value="Bin 1"/>
+<entry key="MissingValCounter" type="xlong" value="0"/>
+<entry key="noOfRows" type="xlong" value="3234"/>
+<entry key="mean" type="xdouble" value="0.2102659245516391"/>
+<entry key="sd" type="xdouble" value="4.635058483166855"/>
+</config>
+<config key="classValueData_4">
+<entry key="classValue" type="xstring" value="Bin 5"/>
+<entry key="MissingValCounter" type="xlong" value="0"/>
+<entry key="noOfRows" type="xlong" value="133"/>
+<entry key="mean" type="xdouble" value="152.33082706766916"/>
+<entry key="sd" type="xdouble" value="33.09507008158038"/>
+</config>
+</config>
+</config>
+<config key="AttributeModelData_7">
+<entry key="attributeName" type="xstring" value="NU_NOTA_COMP3"/>
+<entry key="type" type="xstring" value="NumericalModel"/>
+<entry key="skipMissingVals" type="xboolean" value="false"/>
+<entry key="numberOfMissingValues" type="xint" value="0"/>
+<entry key="invalidCause" type="xstring" isnull="true" value=""/>
+<config key="data">
+<entry key="noOfClasses" type="xlong" value="5"/>
+<config key="classValueData_0">
+<entry key="classValue" type="xstring" value="Bin 4"/>
+<entry key="MissingValCounter" type="xlong" value="0"/>
+<entry key="noOfRows" type="xlong" value="1491"/>
+<entry key="mean" type="xdouble" value="126.93494299128095"/>
+<entry key="sd" type="xdouble" value="33.85611767971018"/>
+</config>
+<config key="classValueData_1">
+<entry key="classValue" type="xstring" value="Bin 3"/>
+<entry key="MissingValCounter" type="xlong" value="0"/>
+<entry key="noOfRows" type="xlong" value="6412"/>
+<entry key="mean" type="xdouble" value="103.48565190268258"/>
+<entry key="sd" type="xdouble" value="32.26137619033696"/>
+</config>
+<config key="classValueData_2">
+<entry key="classValue" type="xstring" value="Bin 2"/>
+<entry key="MissingValCounter" type="xlong" value="0"/>
+<entry key="noOfRows" type="xlong" value="1087"/>
+<entry key="mean" type="xdouble" value="94.1306347746091"/>
+<entry key="sd" type="xdouble" value="32.03004818887399"/>
+</config>
+<config key="classValueData_3">
+<entry key="classValue" type="xstring" value="Bin 1"/>
+<entry key="MissingValCounter" type="xlong" value="0"/>
+<entry key="noOfRows" type="xlong" value="3234"/>
+<entry key="mean" type="xdouble" value="0.20408163265306134"/>
+<entry key="sd" type="xdouble" value="4.458465783510165"/>
+</config>
+<config key="classValueData_4">
+<entry key="classValue" type="xstring" value="Bin 5"/>
+<entry key="MissingValCounter" type="xlong" value="0"/>
+<entry key="noOfRows" type="xlong" value="133"/>
+<entry key="mean" type="xdouble" value="150.5263157894737"/>
+<entry key="sd" type="xdouble" value="35.97801916224565"/>
+</config>
+</config>
+</config>
+<config key="AttributeModelData_8">
+<entry key="attributeName" type="xstring" value="NU_NOTA_COMP4"/>
+<entry key="type" type="xstring" value="NumericalModel"/>
+<entry key="skipMissingVals" type="xboolean" value="false"/>
+<entry key="numberOfMissingValues" type="xint" value="0"/>
+<entry key="invalidCause" type="xstring" isnull="true" value=""/>
+<config key="data">
+<entry key="noOfClasses" type="xlong" value="5"/>
+<config key="classValueData_0">
+<entry key="classValue" type="xstring" value="Bin 4"/>
+<entry key="MissingValCounter" type="xlong" value="0"/>
+<entry key="noOfRows" type="xlong" value="1491"/>
+<entry key="mean" type="xdouble" value="131.87122736418507"/>
+<entry key="sd" type="xdouble" value="32.12266000308466"/>
+</config>
+<config key="classValueData_1">
+<entry key="classValue" type="xstring" value="Bin 3"/>
+<entry key="MissingValCounter" type="xlong" value="0"/>
+<entry key="noOfRows" type="xlong" value="6412"/>
+<entry key="mean" type="xdouble" value="110.0764192139739"/>
+<entry key="sd" type="xdouble" value="31.475721355915553"/>
+</config>
+<config key="classValueData_2">
+<entry key="classValue" type="xstring" value="Bin 2"/>
+<entry key="MissingValCounter" type="xlong" value="0"/>
+<entry key="noOfRows" type="xlong" value="1087"/>
+<entry key="mean" type="xdouble" value="100.47378104875808"/>
+<entry key="sd" type="xdouble" value="33.30727806859573"/>
+</config>
+<config key="classValueData_3">
+<entry key="classValue" type="xstring" value="Bin 1"/>
+<entry key="MissingValCounter" type="xlong" value="0"/>
+<entry key="noOfRows" type="xlong" value="3234"/>
+<entry key="mean" type="xdouble" value="0.18552875695732857"/>
+<entry key="sd" type="xdouble" value="4.09780982843107"/>
+</config>
+<config key="classValueData_4">
+<entry key="classValue" type="xstring" value="Bin 5"/>
+<entry key="MissingValCounter" type="xlong" value="0"/>
+<entry key="noOfRows" type="xlong" value="133"/>
+<entry key="mean" type="xdouble" value="155.63909774436092"/>
+<entry key="sd" type="xdouble" value="32.130260056541395"/>
+</config>
+</config>
+</config>
+<config key="AttributeModelData_9">
+<entry key="attributeName" type="xstring" value="NU_NOTA_COMP5"/>
+<entry key="type" type="xstring" value="NumericalModel"/>
+<entry key="skipMissingVals" type="xboolean" value="false"/>
+<entry key="numberOfMissingValues" type="xint" value="0"/>
+<entry key="invalidCause" type="xstring" isnull="true" value=""/>
+<config key="data">
+<entry key="noOfClasses" type="xlong" value="5"/>
+<config key="classValueData_0">
+<entry key="classValue" type="xstring" value="Bin 4"/>
+<entry key="MissingValCounter" type="xlong" value="0"/>
+<entry key="noOfRows" type="xlong" value="1491"/>
+<entry key="mean" type="xdouble" value="102.52179745137497"/>
+<entry key="sd" type="xdouble" value="44.09962821970261"/>
+</config>
+<config key="classValueData_1">
+<entry key="classValue" type="xstring" value="Bin 3"/>
+<entry key="MissingValCounter" type="xlong" value="0"/>
+<entry key="noOfRows" type="xlong" value="6412"/>
+<entry key="mean" type="xdouble" value="72.76200873362409"/>
+<entry key="sd" type="xdouble" value="40.506146521163835"/>
+</config>
+<config key="classValueData_2">
+<entry key="classValue" type="xstring" value="Bin 2"/>
+<entry key="MissingValCounter" type="xlong" value="0"/>
+<entry key="noOfRows" type="xlong" value="1087"/>
+<entry key="mean" type="xdouble" value="63.077276908923665"/>
+<entry key="sd" type="xdouble" value="38.975502396416715"/>
+</config>
+<config key="classValueData_3">
+<entry key="classValue" type="xstring" value="Bin 1"/>
+<entry key="MissingValCounter" type="xlong" value="0"/>
+<entry key="noOfRows" type="xlong" value="3234"/>
+<entry key="mean" type="xdouble" value="0.11750154607297449"/>
+<entry key="sd" type="xdouble" value="2.7894098153551186"/>
+</config>
+<config key="classValueData_4">
+<entry key="classValue" type="xstring" value="Bin 5"/>
+<entry key="MissingValCounter" type="xlong" value="0"/>
+<entry key="noOfRows" type="xlong" value="133"/>
+<entry key="mean" type="xdouble" value="127.21804511278195"/>
+<entry key="sd" type="xdouble" value="44.06182611276897"/>
+</config>
+</config>
+</config>
+<config key="AttributeModelData_10">
+<entry key="attributeName" type="xstring" value="NU_NOTA_REDACAO"/>
+<entry key="type" type="xstring" value="NumericalModel"/>
+<entry key="skipMissingVals" type="xboolean" value="false"/>
+<entry key="numberOfMissingValues" type="xint" value="0"/>
+<entry key="invalidCause" type="xstring" isnull="true" value=""/>
+<config key="data">
+<entry key="noOfClasses" type="xlong" value="5"/>
+<config key="classValueData_0">
+<entry key="classValue" type="xstring" value="Bin 4"/>
+<entry key="MissingValCounter" type="xlong" value="0"/>
+<entry key="noOfRows" type="xlong" value="1491"/>
+<entry key="mean" type="xdouble" value="626.7739771965122"/>
+<entry key="sd" type="xdouble" value="147.3597224670998"/>
+</config>
+<config key="classValueData_1">
+<entry key="classValue" type="xstring" value="Bin 3"/>
+<entry key="MissingValCounter" type="xlong" value="0"/>
+<entry key="noOfRows" type="xlong" value="6412"/>
+<entry key="mean" type="xdouble" value="512.7239550842158"/>
+<entry key="sd" type="xdouble" value="143.84701064266577"/>
+</config>
+<config key="classValueData_2">
+<entry key="classValue" type="xstring" value="Bin 2"/>
+<entry key="MissingValCounter" type="xlong" value="0"/>
+<entry key="noOfRows" type="xlong" value="1087"/>
+<entry key="mean" type="xdouble" value="466.7893284268625"/>
+<entry key="sd" type="xdouble" value="147.37199007530808"/>
+</config>
+<config key="classValueData_3">
+<entry key="classValue" type="xstring" value="Bin 1"/>
+<entry key="MissingValCounter" type="xlong" value="0"/>
+<entry key="noOfRows" type="xlong" value="3234"/>
+<entry key="mean" type="xdouble" value="0.946196660482372"/>
+<entry key="sd" type="xdouble" value="20.71341753580655"/>
+</config>
+<config key="classValueData_4">
+<entry key="classValue" type="xstring" value="Bin 5"/>
+<entry key="MissingValCounter" type="xlong" value="0"/>
+<entry key="noOfRows" type="xlong" value="133"/>
+<entry key="mean" type="xdouble" value="736.9924812030076"/>
+<entry key="sd" type="xdouble" value="152.46452623879836"/>
+</config>
+</config>
+</config>
+<config key="AttributeModelData_11">
+<entry key="attributeName" type="xstring" value="NU_NOTA_CN [Binned]"/>
+<entry key="type" type="xstring" value="NominalModel"/>
+<entry key="skipMissingVals" type="xboolean" value="false"/>
+<entry key="numberOfMissingValues" type="xint" value="0"/>
+<entry key="invalidCause" type="xstring" isnull="true" value=""/>
+<config key="data">
+<entry key="maxNoOfAttrs" type="xlong" value="20"/>
+<entry key="noOfClasses" type="xlong" value="5"/>
+<config key="attributeValues">
+<entry key="array-size" type="xint" value="4"/>
+<entry key="0" type="xstring" value="Bin 4"/>
+<entry key="1" type="xstring" value="Bin 3"/>
+<entry key="2" type="xstring" value="Bin 1"/>
+<entry key="3" type="xstring" value="Bin 5"/>
+</config>
+<config key="classValueData_0">
+<entry key="classValue" type="xstring" value="Bin 3"/>
+<entry key="noOfRows" type="xlong" value="6412"/>
+<entry key="MissingValCounter" type="xlong" value="0"/>
+<config key="attributeValues">
+<entry key="array-size" type="xint" value="4"/>
+<entry key="0" type="xstring" value="Bin 4"/>
+<entry key="1" type="xstring" value="Bin 3"/>
+<entry key="2" type="xstring" value="Bin 1"/>
+<entry key="3" type="xstring" value="Bin 5"/>
+</config>
+<config key="attributeCounter">
+<entry key="array-size" type="xint" value="4"/>
+<entry key="0" type="xlong" value="1994"/>
+<entry key="1" type="xlong" value="4386"/>
+<entry key="2" type="xlong" value="29"/>
+<entry key="3" type="xlong" value="3"/>
+</config>
+</config>
+<config key="classValueData_1">
+<entry key="classValue" type="xstring" value="Bin 4"/>
+<entry key="noOfRows" type="xlong" value="1491"/>
+<entry key="MissingValCounter" type="xlong" value="0"/>
+<config key="attributeValues">
+<entry key="array-size" type="xint" value="4"/>
+<entry key="0" type="xstring" value="Bin 4"/>
+<entry key="1" type="xstring" value="Bin 3"/>
+<entry key="2" type="xstring" value="Bin 1"/>
+<entry key="3" type="xstring" value="Bin 5"/>
+</config>
+<config key="attributeCounter">
+<entry key="array-size" type="xint" value="4"/>
+<entry key="0" type="xlong" value="1039"/>
+<entry key="1" type="xlong" value="353"/>
+<entry key="2" type="xlong" value="3"/>
+<entry key="3" type="xlong" value="96"/>
+</config>
+</config>
+<config key="classValueData_2">
+<entry key="classValue" type="xstring" value="Bin 1"/>
+<entry key="noOfRows" type="xlong" value="3234"/>
+<entry key="MissingValCounter" type="xlong" value="0"/>
+<config key="attributeValues">
+<entry key="array-size" type="xint" value="4"/>
+<entry key="0" type="xstring" value="Bin 4"/>
+<entry key="1" type="xstring" value="Bin 3"/>
+<entry key="2" type="xstring" value="Bin 1"/>
+<entry key="3" type="xstring" value="Bin 5"/>
+</config>
+<config key="attributeCounter">
+<entry key="array-size" type="xint" value="4"/>
+<entry key="0" type="xlong" value="61"/>
+<entry key="1" type="xlong" value="158"/>
+<entry key="2" type="xlong" value="3013"/>
+<entry key="3" type="xlong" value="2"/>
+</config>
+</config>
+<config key="classValueData_3">
+<entry key="classValue" type="xstring" value="Bin 2"/>
+<entry key="noOfRows" type="xlong" value="1087"/>
+<entry key="MissingValCounter" type="xlong" value="0"/>
+<config key="attributeValues">
+<entry key="array-size" type="xint" value="3"/>
+<entry key="0" type="xstring" value="Bin 4"/>
+<entry key="1" type="xstring" value="Bin 3"/>
+<entry key="2" type="xstring" value="Bin 1"/>
+</config>
+<config key="attributeCounter">
+<entry key="array-size" type="xint" value="3"/>
+<entry key="0" type="xlong" value="189"/>
+<entry key="1" type="xlong" value="893"/>
+<entry key="2" type="xlong" value="5"/>
+</config>
+</config>
+<config key="classValueData_4">
+<entry key="classValue" type="xstring" value="Bin 5"/>
+<entry key="noOfRows" type="xlong" value="133"/>
+<entry key="MissingValCounter" type="xlong" value="0"/>
+<config key="attributeValues">
+<entry key="array-size" type="xint" value="3"/>
+<entry key="0" type="xstring" value="Bin 4"/>
+<entry key="1" type="xstring" value="Bin 1"/>
+<entry key="2" type="xstring" value="Bin 5"/>
+</config>
+<config key="attributeCounter">
+<entry key="array-size" type="xint" value="3"/>
+<entry key="0" type="xlong" value="55"/>
+<entry key="1" type="xlong" value="1"/>
+<entry key="2" type="xlong" value="77"/>
+</config>
+</config>
+</config>
+</config>
+<config key="AttributeModelData_12">
+<entry key="attributeName" type="xstring" value="NU_NOTA_CH [Binned]"/>
+<entry key="type" type="xstring" value="NominalModel"/>
+<entry key="skipMissingVals" type="xboolean" value="false"/>
+<entry key="numberOfMissingValues" type="xint" value="0"/>
+<entry key="invalidCause" type="xstring" isnull="true" value=""/>
+<config key="data">
+<entry key="maxNoOfAttrs" type="xlong" value="20"/>
+<entry key="noOfClasses" type="xlong" value="5"/>
+<config key="attributeValues">
+<entry key="array-size" type="xint" value="4"/>
+<entry key="0" type="xstring" value="Bin 4"/>
+<entry key="1" type="xstring" value="Bin 1"/>
+<entry key="2" type="xstring" value="Bin 3"/>
+<entry key="3" type="xstring" value="Bin 5"/>
+</config>
+<config key="classValueData_0">
+<entry key="classValue" type="xstring" value="Bin 3"/>
+<entry key="noOfRows" type="xlong" value="6412"/>
+<entry key="MissingValCounter" type="xlong" value="0"/>
+<config key="attributeValues">
+<entry key="array-size" type="xint" value="4"/>
+<entry key="0" type="xstring" value="Bin 4"/>
+<entry key="1" type="xstring" value="Bin 3"/>
+<entry key="2" type="xstring" value="Bin 1"/>
+<entry key="3" type="xstring" value="Bin 5"/>
+</config>
+<config key="attributeCounter">
+<entry key="array-size" type="xint" value="4"/>
+<entry key="0" type="xlong" value="4426"/>
+<entry key="1" type="xlong" value="1863"/>
+<entry key="2" type="xlong" value="26"/>
+<entry key="3" type="xlong" value="97"/>
+</config>
+</config>
+<config key="classValueData_1">
+<entry key="classValue" type="xstring" value="Bin 4"/>
+<entry key="noOfRows" type="xlong" value="1491"/>
+<entry key="MissingValCounter" type="xlong" value="0"/>
+<config key="attributeValues">
+<entry key="array-size" type="xint" value="4"/>
+<entry key="0" type="xstring" value="Bin 4"/>
+<entry key="1" type="xstring" value="Bin 3"/>
+<entry key="2" type="xstring" value="Bin 1"/>
+<entry key="3" type="xstring" value="Bin 5"/>
+</config>
+<config key="attributeCounter">
+<entry key="array-size" type="xint" value="4"/>
+<entry key="0" type="xlong" value="1160"/>
+<entry key="1" type="xlong" value="75"/>
+<entry key="2" type="xlong" value="3"/>
+<entry key="3" type="xlong" value="253"/>
+</config>
+</config>
+<config key="classValueData_2">
+<entry key="classValue" type="xstring" value="Bin 1"/>
+<entry key="noOfRows" type="xlong" value="3234"/>
+<entry key="MissingValCounter" type="xlong" value="0"/>
+<config key="attributeValues">
+<entry key="array-size" type="xint" value="4"/>
+<entry key="0" type="xstring" value="Bin 4"/>
+<entry key="1" type="xstring" value="Bin 3"/>
+<entry key="2" type="xstring" value="Bin 1"/>
+<entry key="3" type="xstring" value="Bin 5"/>
+</config>
+<config key="attributeCounter">
+<entry key="array-size" type="xint" value="4"/>
+<entry key="0" type="xlong" value="125"/>
+<entry key="1" type="xlong" value="91"/>
+<entry key="2" type="xlong" value="3012"/>
+<entry key="3" type="xlong" value="6"/>
+</config>
+</config>
+<config key="classValueData_3">
+<entry key="classValue" type="xstring" value="Bin 2"/>
+<entry key="noOfRows" type="xlong" value="1087"/>
+<entry key="MissingValCounter" type="xlong" value="0"/>
+<config key="attributeValues">
+<entry key="array-size" type="xint" value="4"/>
+<entry key="0" type="xstring" value="Bin 4"/>
+<entry key="1" type="xstring" value="Bin 3"/>
+<entry key="2" type="xstring" value="Bin 1"/>
+<entry key="3" type="xstring" value="Bin 5"/>
+</config>
+<config key="attributeCounter">
+<entry key="array-size" type="xint" value="4"/>
+<entry key="0" type="xlong" value="608"/>
+<entry key="1" type="xlong" value="469"/>
+<entry key="2" type="xlong" value="5"/>
+<entry key="3" type="xlong" value="5"/>
+</config>
+</config>
+<config key="classValueData_4">
+<entry key="classValue" type="xstring" value="Bin 5"/>
+<entry key="noOfRows" type="xlong" value="133"/>
+<entry key="MissingValCounter" type="xlong" value="0"/>
+<config key="attributeValues">
+<entry key="array-size" type="xint" value="3"/>
+<entry key="0" type="xstring" value="Bin 4"/>
+<entry key="1" type="xstring" value="Bin 1"/>
+<entry key="2" type="xstring" value="Bin 5"/>
+</config>
+<config key="attributeCounter">
+<entry key="array-size" type="xint" value="3"/>
+<entry key="0" type="xlong" value="42"/>
+<entry key="1" type="xlong" value="1"/>
+<entry key="2" type="xlong" value="90"/>
+</config>
+</config>
+</config>
+</config>
+<config key="AttributeModelData_13">
+<entry key="attributeName" type="xstring" value="NU_NOTA_LC [Binned]"/>
+<entry key="type" type="xstring" value="NominalModel"/>
+<entry key="skipMissingVals" type="xboolean" value="false"/>
+<entry key="numberOfMissingValues" type="xint" value="0"/>
+<entry key="invalidCause" type="xstring" isnull="true" value=""/>
+<config key="data">
+<entry key="maxNoOfAttrs" type="xlong" value="20"/>
+<entry key="noOfClasses" type="xlong" value="5"/>
+<config key="attributeValues">
+<entry key="array-size" type="xint" value="4"/>
+<entry key="0" type="xstring" value="Bin 3"/>
+<entry key="1" type="xstring" value="Bin 4"/>
+<entry key="2" type="xstring" value="Bin 1"/>
+<entry key="3" type="xstring" value="Bin 5"/>
+</config>
+<config key="classValueData_0">
+<entry key="classValue" type="xstring" value="Bin 3"/>
+<entry key="noOfRows" type="xlong" value="6412"/>
+<entry key="MissingValCounter" type="xlong" value="0"/>
+<config key="attributeValues">
+<entry key="array-size" type="xint" value="3"/>
+<entry key="0" type="xstring" value="Bin 4"/>
+<entry key="1" type="xstring" value="Bin 3"/>
+<entry key="2" type="xstring" value="Bin 5"/>
+</config>
+<config key="attributeCounter">
+<entry key="array-size" type="xint" value="3"/>
+<entry key="0" type="xlong" value="4805"/>
+<entry key="1" type="xlong" value="1395"/>
+<entry key="2" type="xlong" value="212"/>
+</config>
+</config>
+<config key="classValueData_1">
+<entry key="classValue" type="xstring" value="Bin 4"/>
+<entry key="noOfRows" type="xlong" value="1491"/>
+<entry key="MissingValCounter" type="xlong" value="0"/>
+<config key="attributeValues">
+<entry key="array-size" type="xint" value="3"/>
+<entry key="0" type="xstring" value="Bin 4"/>
+<entry key="1" type="xstring" value="Bin 3"/>
+<entry key="2" type="xstring" value="Bin 5"/>
+</config>
+<config key="attributeCounter">
+<entry key="array-size" type="xint" value="3"/>
+<entry key="0" type="xlong" value="1053"/>
+<entry key="1" type="xlong" value="81"/>
+<entry key="2" type="xlong" value="357"/>
+</config>
+</config>
+<config key="classValueData_2">
+<entry key="classValue" type="xstring" value="Bin 1"/>
+<entry key="noOfRows" type="xlong" value="3234"/>
+<entry key="MissingValCounter" type="xlong" value="0"/>
+<config key="attributeValues">
+<entry key="array-size" type="xint" value="3"/>
+<entry key="0" type="xstring" value="Bin 4"/>
+<entry key="1" type="xstring" value="Bin 3"/>
+<entry key="2" type="xstring" value="Bin 1"/>
+</config>
+<config key="attributeCounter">
+<entry key="array-size" type="xint" value="3"/>
+<entry key="0" type="xlong" value="1"/>
+<entry key="1" type="xlong" value="2"/>
+<entry key="2" type="xlong" value="3231"/>
+</config>
+</config>
+<config key="classValueData_3">
+<entry key="classValue" type="xstring" value="Bin 2"/>
+<entry key="noOfRows" type="xlong" value="1087"/>
+<entry key="MissingValCounter" type="xlong" value="0"/>
+<config key="attributeValues">
+<entry key="array-size" type="xint" value="3"/>
+<entry key="0" type="xstring" value="Bin 4"/>
+<entry key="1" type="xstring" value="Bin 3"/>
+<entry key="2" type="xstring" value="Bin 5"/>
+</config>
+<config key="attributeCounter">
+<entry key="array-size" type="xint" value="3"/>
+<entry key="0" type="xlong" value="649"/>
+<entry key="1" type="xlong" value="427"/>
+<entry key="2" type="xlong" value="11"/>
+</config>
+</config>
+<config key="classValueData_4">
+<entry key="classValue" type="xstring" value="Bin 5"/>
+<entry key="noOfRows" type="xlong" value="133"/>
+<entry key="MissingValCounter" type="xlong" value="0"/>
+<config key="attributeValues">
+<entry key="array-size" type="xint" value="3"/>
+<entry key="0" type="xstring" value="Bin 4"/>
+<entry key="1" type="xstring" value="Bin 3"/>
+<entry key="2" type="xstring" value="Bin 5"/>
+</config>
+<config key="attributeCounter">
+<entry key="array-size" type="xint" value="3"/>
+<entry key="0" type="xlong" value="34"/>
+<entry key="1" type="xlong" value="4"/>
+<entry key="2" type="xlong" value="95"/>
+</config>
+</config>
+</config>
+</config>
+<config key="AttributeModelData_14">
+<entry key="attributeName" type="xstring" value="NU_NOTA_MT [Binned]"/>
+<entry key="type" type="xstring" value="ClassModel"/>
+<entry key="skipMissingVals" type="xboolean" value="false"/>
+<entry key="numberOfMissingValues" type="xint" value="0"/>
+<entry key="invalidCause" type="xstring" isnull="true" value=""/>
+<config key="data">
+<entry key="totalNoOfRecords" type="xlong" value="12357"/>
+<entry key="maxNoOfClassValues" type="xlong" value="20"/>
+<config key="classValues">
+<entry key="array-size" type="xint" value="5"/>
+<entry key="0" type="xstring" value="Bin 3"/>
+<entry key="1" type="xstring" value="Bin 4"/>
+<entry key="2" type="xstring" value="Bin 1"/>
+<entry key="3" type="xstring" value="Bin 2"/>
+<entry key="4" type="xstring" value="Bin 5"/>
+</config>
+<config key="classRecordCounter">
+<entry key="array-size" type="xint" value="5"/>
+<entry key="0" type="xlong" value="6412"/>
+<entry key="1" type="xlong" value="1491"/>
+<entry key="2" type="xlong" value="3234"/>
+<entry key="3" type="xlong" value="1087"/>
+<entry key="4" type="xlong" value="133"/>
+</config>
+</config>
+</config>
+<config key="AttributeModelData_15">
+<entry key="attributeName" type="xstring" value="TP_STATUS_REDACAO [Binned]"/>
+<entry key="type" type="xstring" value="NominalModel"/>
+<entry key="skipMissingVals" type="xboolean" value="false"/>
+<entry key="numberOfMissingValues" type="xint" value="0"/>
+<entry key="invalidCause" type="xstring" isnull="true" value=""/>
+<config key="data">
+<entry key="maxNoOfAttrs" type="xlong" value="20"/>
+<entry key="noOfClasses" type="xlong" value="5"/>
+<config key="attributeValues">
+<entry key="array-size" type="xint" value="5"/>
+<entry key="0" type="xstring" value="Bin 1"/>
+<entry key="1" type="xstring" value="Bin 2"/>
+<entry key="2" type="xstring" value="Bin 3"/>
+<entry key="3" type="xstring" value="Bin 4"/>
+<entry key="4" type="xstring" value="Bin 5"/>
+</config>
+<config key="classValueData_0">
+<entry key="classValue" type="xstring" value="Bin 3"/>
+<entry key="noOfRows" type="xlong" value="6412"/>
+<entry key="MissingValCounter" type="xlong" value="0"/>
+<config key="attributeValues">
+<entry key="array-size" type="xint" value="5"/>
+<entry key="0" type="xstring" value="Bin 4"/>
+<entry key="1" type="xstring" value="Bin 3"/>
+<entry key="2" type="xstring" value="Bin 2"/>
+<entry key="3" type="xstring" value="Bin 1"/>
+<entry key="4" type="xstring" value="Bin 5"/>
+</config>
+<config key="attributeCounter">
+<entry key="array-size" type="xint" value="5"/>
+<entry key="0" type="xlong" value="62"/>
+<entry key="1" type="xlong" value="65"/>
+<entry key="2" type="xlong" value="13"/>
+<entry key="3" type="xlong" value="6251"/>
+<entry key="4" type="xlong" value="21"/>
+</config>
+</config>
+<config key="classValueData_1">
+<entry key="classValue" type="xstring" value="Bin 4"/>
+<entry key="noOfRows" type="xlong" value="1491"/>
+<entry key="MissingValCounter" type="xlong" value="0"/>
+<config key="attributeValues">
+<entry key="array-size" type="xint" value="4"/>
+<entry key="0" type="xstring" value="Bin 4"/>
+<entry key="1" type="xstring" value="Bin 3"/>
+<entry key="2" type="xstring" value="Bin 1"/>
+<entry key="3" type="xstring" value="Bin 5"/>
+</config>
+<config key="attributeCounter">
+<entry key="array-size" type="xint" value="4"/>
+<entry key="0" type="xlong" value="2"/>
+<entry key="1" type="xlong" value="6"/>
+<entry key="2" type="xlong" value="1480"/>
+<entry key="3" type="xlong" value="3"/>
+</config>
+</config>
+<config key="classValueData_2">
+<entry key="classValue" type="xstring" value="Bin 1"/>
+<entry key="noOfRows" type="xlong" value="3234"/>
+<entry key="MissingValCounter" type="xlong" value="0"/>
+<config key="attributeValues">
+<entry key="array-size" type="xint" value="2"/>
+<entry key="0" type="xstring" value="Bin 3"/>
+<entry key="1" type="xstring" value="Bin 1"/>
+</config>
+<config key="attributeCounter">
+<entry key="array-size" type="xint" value="2"/>
+<entry key="0" type="xlong" value="1"/>
+<entry key="1" type="xlong" value="3233"/>
+</config>
+</config>
+<config key="classValueData_3">
+<entry key="classValue" type="xstring" value="Bin 2"/>
+<entry key="noOfRows" type="xlong" value="1087"/>
+<entry key="MissingValCounter" type="xlong" value="0"/>
+<config key="attributeValues">
+<entry key="array-size" type="xint" value="5"/>
+<entry key="0" type="xstring" value="Bin 4"/>
+<entry key="1" type="xstring" value="Bin 3"/>
+<entry key="2" type="xstring" value="Bin 2"/>
+<entry key="3" type="xstring" value="Bin 1"/>
+<entry key="4" type="xstring" value="Bin 5"/>
+</config>
+<config key="attributeCounter">
+<entry key="array-size" type="xint" value="5"/>
+<entry key="0" type="xlong" value="19"/>
+<entry key="1" type="xlong" value="16"/>
+<entry key="2" type="xlong" value="4"/>
+<entry key="3" type="xlong" value="1047"/>
+<entry key="4" type="xlong" value="1"/>
+</config>
+</config>
+<config key="classValueData_4">
+<entry key="classValue" type="xstring" value="Bin 5"/>
+<entry key="noOfRows" type="xlong" value="133"/>
+<entry key="MissingValCounter" type="xlong" value="0"/>
+<config key="attributeValues">
+<entry key="array-size" type="xint" value="3"/>
+<entry key="0" type="xstring" value="Bin 4"/>
+<entry key="1" type="xstring" value="Bin 3"/>
+<entry key="2" type="xstring" value="Bin 1"/>
+</config>
+<config key="attributeCounter">
+<entry key="array-size" type="xint" value="3"/>
+<entry key="0" type="xlong" value="1"/>
+<entry key="1" type="xlong" value="1"/>
+<entry key="2" type="xlong" value="131"/>
+</config>
+</config>
+</config>
+</config>
+<config key="AttributeModelData_16">
+<entry key="attributeName" type="xstring" value="NU_NOTA_COMP1 [Binned]"/>
+<entry key="type" type="xstring" value="NominalModel"/>
+<entry key="skipMissingVals" type="xboolean" value="false"/>
+<entry key="numberOfMissingValues" type="xint" value="0"/>
+<entry key="invalidCause" type="xstring" isnull="true" value=""/>
+<config key="data">
+<entry key="maxNoOfAttrs" type="xlong" value="20"/>
+<entry key="noOfClasses" type="xlong" value="5"/>
+<config key="attributeValues">
+<entry key="array-size" type="xint" value="5"/>
+<entry key="0" type="xstring" value="Bin 3"/>
+<entry key="1" type="xstring" value="Bin 2"/>
+<entry key="2" type="xstring" value="Bin 4"/>
+<entry key="3" type="xstring" value="Bin 1"/>
+<entry key="4" type="xstring" value="Bin 5"/>
+</config>
+<config key="classValueData_0">
+<entry key="classValue" type="xstring" value="Bin 3"/>
+<entry key="noOfRows" type="xlong" value="6412"/>
+<entry key="MissingValCounter" type="xlong" value="0"/>
+<config key="attributeValues">
+<entry key="array-size" type="xint" value="5"/>
+<entry key="0" type="xstring" value="Bin 4"/>
+<entry key="1" type="xstring" value="Bin 3"/>
+<entry key="2" type="xstring" value="Bin 2"/>
+<entry key="3" type="xstring" value="Bin 1"/>
+<entry key="4" type="xstring" value="Bin 5"/>
+</config>
+<config key="attributeCounter">
+<entry key="array-size" type="xint" value="5"/>
+<entry key="0" type="xlong" value="1554"/>
+<entry key="1" type="xlong" value="4018"/>
+<entry key="2" type="xlong" value="634"/>
+<entry key="3" type="xlong" value="189"/>
+<entry key="4" type="xlong" value="17"/>
+</config>
+</config>
+<config key="classValueData_1">
+<entry key="classValue" type="xstring" value="Bin 4"/>
+<entry key="noOfRows" type="xlong" value="1491"/>
+<entry key="MissingValCounter" type="xlong" value="0"/>
+<config key="attributeValues">
+<entry key="array-size" type="xint" value="5"/>
+<entry key="0" type="xstring" value="Bin 4"/>
+<entry key="1" type="xstring" value="Bin 3"/>
+<entry key="2" type="xstring" value="Bin 2"/>
+<entry key="3" type="xstring" value="Bin 1"/>
+<entry key="4" type="xstring" value="Bin 5"/>
+</config>
+<config key="attributeCounter">
+<entry key="array-size" type="xint" value="5"/>
+<entry key="0" type="xlong" value="713"/>
+<entry key="1" type="xlong" value="688"/>
+<entry key="2" type="xlong" value="37"/>
+<entry key="3" type="xlong" value="11"/>
+<entry key="4" type="xlong" value="42"/>
+</config>
+</config>
+<config key="classValueData_2">
+<entry key="classValue" type="xstring" value="Bin 1"/>
+<entry key="noOfRows" type="xlong" value="3234"/>
+<entry key="MissingValCounter" type="xlong" value="0"/>
+<config key="attributeValues">
+<entry key="array-size" type="xint" value="3"/>
+<entry key="0" type="xstring" value="Bin 3"/>
+<entry key="1" type="xstring" value="Bin 2"/>
+<entry key="2" type="xstring" value="Bin 1"/>
+</config>
+<config key="attributeCounter">
+<entry key="array-size" type="xint" value="3"/>
+<entry key="0" type="xlong" value="5"/>
+<entry key="1" type="xlong" value="2"/>
+<entry key="2" type="xlong" value="3227"/>
+</config>
+</config>
+<config key="classValueData_3">
+<entry key="classValue" type="xstring" value="Bin 2"/>
+<entry key="noOfRows" type="xlong" value="1087"/>
+<entry key="MissingValCounter" type="xlong" value="0"/>
+<config key="attributeValues">
+<entry key="array-size" type="xint" value="5"/>
+<entry key="0" type="xstring" value="Bin 4"/>
+<entry key="1" type="xstring" value="Bin 3"/>
+<entry key="2" type="xstring" value="Bin 2"/>
+<entry key="3" type="xstring" value="Bin 1"/>
+<entry key="4" type="xstring" value="Bin 5"/>
+</config>
+<config key="attributeCounter">
+<entry key="array-size" type="xint" value="5"/>
+<entry key="0" type="xlong" value="153"/>
+<entry key="1" type="xlong" value="717"/>
+<entry key="2" type="xlong" value="164"/>
+<entry key="3" type="xlong" value="51"/>
+<entry key="4" type="xlong" value="2"/>
+</config>
+</config>
+<config key="classValueData_4">
+<entry key="classValue" type="xstring" value="Bin 5"/>
+<entry key="noOfRows" type="xlong" value="133"/>
+<entry key="MissingValCounter" type="xlong" value="0"/>
+<config key="attributeValues">
+<entry key="array-size" type="xint" value="4"/>
+<entry key="0" type="xstring" value="Bin 4"/>
+<entry key="1" type="xstring" value="Bin 3"/>
+<entry key="2" type="xstring" value="Bin 1"/>
+<entry key="3" type="xstring" value="Bin 5"/>
+</config>
+<config key="attributeCounter">
+<entry key="array-size" type="xint" value="4"/>
+<entry key="0" type="xlong" value="96"/>
+<entry key="1" type="xlong" value="21"/>
+<entry key="2" type="xlong" value="2"/>
+<entry key="3" type="xlong" value="14"/>
+</config>
+</config>
+</config>
+</config>
+<config key="AttributeModelData_17">
+<entry key="attributeName" type="xstring" value="NU_NOTA_COMP2 [Binned]"/>
+<entry key="type" type="xstring" value="NominalModel"/>
+<entry key="skipMissingVals" type="xboolean" value="false"/>
+<entry key="numberOfMissingValues" type="xint" value="0"/>
+<entry key="invalidCause" type="xstring" isnull="true" value=""/>
+<config key="data">
+<entry key="maxNoOfAttrs" type="xlong" value="20"/>
+<entry key="noOfClasses" type="xlong" value="5"/>
+<config key="attributeValues">
+<entry key="array-size" type="xint" value="5"/>
+<entry key="0" type="xstring" value="Bin 3"/>
+<entry key="1" type="xstring" value="Bin 2"/>
+<entry key="2" type="xstring" value="Bin 1"/>
+<entry key="3" type="xstring" value="Bin 4"/>
+<entry key="4" type="xstring" value="Bin 5"/>
+</config>
+<config key="classValueData_0">
+<entry key="classValue" type="xstring" value="Bin 3"/>
+<entry key="noOfRows" type="xlong" value="6412"/>
+<entry key="MissingValCounter" type="xlong" value="0"/>
+<config key="attributeValues">
+<entry key="array-size" type="xint" value="5"/>
+<entry key="0" type="xstring" value="Bin 4"/>
+<entry key="1" type="xstring" value="Bin 3"/>
+<entry key="2" type="xstring" value="Bin 2"/>
+<entry key="3" type="xstring" value="Bin 1"/>
+<entry key="4" type="xstring" value="Bin 5"/>
+</config>
+<config key="attributeCounter">
+<entry key="array-size" type="xint" value="5"/>
+<entry key="0" type="xlong" value="887"/>
+<entry key="1" type="xlong" value="3883"/>
+<entry key="2" type="xlong" value="1253"/>
+<entry key="3" type="xlong" value="300"/>
+<entry key="4" type="xlong" value="89"/>
+</config>
+</config>
+<config key="classValueData_1">
+<entry key="classValue" type="xstring" value="Bin 4"/>
+<entry key="noOfRows" type="xlong" value="1491"/>
+<entry key="MissingValCounter" type="xlong" value="0"/>
+<config key="attributeValues">
+<entry key="array-size" type="xint" value="5"/>
+<entry key="0" type="xstring" value="Bin 4"/>
+<entry key="1" type="xstring" value="Bin 3"/>
+<entry key="2" type="xstring" value="Bin 2"/>
+<entry key="3" type="xstring" value="Bin 1"/>
+<entry key="4" type="xstring" value="Bin 5"/>
+</config>
+<config key="attributeCounter">
+<entry key="array-size" type="xint" value="5"/>
+<entry key="0" type="xlong" value="495"/>
+<entry key="1" type="xlong" value="743"/>
+<entry key="2" type="xlong" value="94"/>
+<entry key="3" type="xlong" value="27"/>
+<entry key="4" type="xlong" value="132"/>
+</config>
+</config>
+<config key="classValueData_2">
+<entry key="classValue" type="xstring" value="Bin 1"/>
+<entry key="noOfRows" type="xlong" value="3234"/>
+<entry key="MissingValCounter" type="xlong" value="0"/>
+<config key="attributeValues">
+<entry key="array-size" type="xint" value="3"/>
+<entry key="0" type="xstring" value="Bin 3"/>
+<entry key="1" type="xstring" value="Bin 2"/>
+<entry key="2" type="xstring" value="Bin 1"/>
+</config>
+<config key="attributeCounter">
+<entry key="array-size" type="xint" value="3"/>
+<entry key="0" type="xlong" value="4"/>
+<entry key="1" type="xlong" value="3"/>
+<entry key="2" type="xlong" value="3227"/>
+</config>
+</config>
+<config key="classValueData_3">
+<entry key="classValue" type="xstring" value="Bin 2"/>
+<entry key="noOfRows" type="xlong" value="1087"/>
+<entry key="MissingValCounter" type="xlong" value="0"/>
+<config key="attributeValues">
+<entry key="array-size" type="xint" value="5"/>
+<entry key="0" type="xstring" value="Bin 4"/>
+<entry key="1" type="xstring" value="Bin 3"/>
+<entry key="2" type="xstring" value="Bin 2"/>
+<entry key="3" type="xstring" value="Bin 1"/>
+<entry key="4" type="xstring" value="Bin 5"/>
+</config>
+<config key="attributeCounter">
+<entry key="array-size" type="xint" value="5"/>
+<entry key="0" type="xlong" value="97"/>
+<entry key="1" type="xlong" value="599"/>
+<entry key="2" type="xlong" value="298"/>
+<entry key="3" type="xlong" value="86"/>
+<entry key="4" type="xlong" value="7"/>
+</config>
+</config>
+<config key="classValueData_4">
+<entry key="classValue" type="xstring" value="Bin 5"/>
+<entry key="noOfRows" type="xlong" value="133"/>
+<entry key="MissingValCounter" type="xlong" value="0"/>
+<config key="attributeValues">
+<entry key="array-size" type="xint" value="4"/>
+<entry key="0" type="xstring" value="Bin 4"/>
+<entry key="1" type="xstring" value="Bin 3"/>
+<entry key="2" type="xstring" value="Bin 1"/>
+<entry key="3" type="xstring" value="Bin 5"/>
+</config>
+<config key="attributeCounter">
+<entry key="array-size" type="xint" value="4"/>
+<entry key="0" type="xlong" value="62"/>
+<entry key="1" type="xlong" value="34"/>
+<entry key="2" type="xlong" value="2"/>
+<entry key="3" type="xlong" value="35"/>
+</config>
+</config>
+</config>
+</config>
+<config key="AttributeModelData_18">
+<entry key="attributeName" type="xstring" value="NU_NOTA_COMP3 [Binned]"/>
+<entry key="type" type="xstring" value="NominalModel"/>
+<entry key="skipMissingVals" type="xboolean" value="false"/>
+<entry key="numberOfMissingValues" type="xint" value="0"/>
+<entry key="invalidCause" type="xstring" isnull="true" value=""/>
+<config key="data">
+<entry key="maxNoOfAttrs" type="xlong" value="20"/>
+<entry key="noOfClasses" type="xlong" value="5"/>
+<config key="attributeValues">
+<entry key="array-size" type="xint" value="5"/>
+<entry key="0" type="xstring" value="Bin 3"/>
+<entry key="1" type="xstring" value="Bin 2"/>
+<entry key="2" type="xstring" value="Bin 1"/>
+<entry key="3" type="xstring" value="Bin 4"/>
+<entry key="4" type="xstring" value="Bin 5"/>
+</config>
+<config key="classValueData_0">
+<entry key="classValue" type="xstring" value="Bin 3"/>
+<entry key="noOfRows" type="xlong" value="6412"/>
+<entry key="MissingValCounter" type="xlong" value="0"/>
+<config key="attributeValues">
+<entry key="array-size" type="xint" value="5"/>
+<entry key="0" type="xstring" value="Bin 4"/>
+<entry key="1" type="xstring" value="Bin 3"/>
+<entry key="2" type="xstring" value="Bin 2"/>
+<entry key="3" type="xstring" value="Bin 1"/>
+<entry key="4" type="xstring" value="Bin 5"/>
+</config>
+<config key="attributeCounter">
+<entry key="array-size" type="xint" value="5"/>
+<entry key="0" type="xlong" value="731"/>
+<entry key="1" type="xlong" value="3457"/>
+<entry key="2" type="xlong" value="1796"/>
+<entry key="3" type="xlong" value="332"/>
+<entry key="4" type="xlong" value="96"/>
+</config>
+</config>
+<config key="classValueData_1">
+<entry key="classValue" type="xstring" value="Bin 4"/>
+<entry key="noOfRows" type="xlong" value="1491"/>
+<entry key="MissingValCounter" type="xlong" value="0"/>
+<config key="attributeValues">
+<entry key="array-size" type="xint" value="5"/>
+<entry key="0" type="xstring" value="Bin 4"/>
+<entry key="1" type="xstring" value="Bin 3"/>
+<entry key="2" type="xstring" value="Bin 2"/>
+<entry key="3" type="xstring" value="Bin 1"/>
+<entry key="4" type="xstring" value="Bin 5"/>
+</config>
+<config key="attributeCounter">
+<entry key="array-size" type="xint" value="5"/>
+<entry key="0" type="xlong" value="441"/>
+<entry key="1" type="xlong" value="711"/>
+<entry key="2" type="xlong" value="179"/>
+<entry key="3" type="xlong" value="24"/>
+<entry key="4" type="xlong" value="136"/>
+</config>
+</config>
+<config key="classValueData_2">
+<entry key="classValue" type="xstring" value="Bin 1"/>
+<entry key="noOfRows" type="xlong" value="3234"/>
+<entry key="MissingValCounter" type="xlong" value="0"/>
+<config key="attributeValues">
+<entry key="array-size" type="xint" value="3"/>
+<entry key="0" type="xstring" value="Bin 3"/>
+<entry key="1" type="xstring" value="Bin 2"/>
+<entry key="2" type="xstring" value="Bin 1"/>
+</config>
+<config key="attributeCounter">
+<entry key="array-size" type="xint" value="3"/>
+<entry key="0" type="xlong" value="3"/>
+<entry key="1" type="xlong" value="4"/>
+<entry key="2" type="xlong" value="3227"/>
+</config>
+</config>
+<config key="classValueData_3">
+<entry key="classValue" type="xstring" value="Bin 2"/>
+<entry key="noOfRows" type="xlong" value="1087"/>
+<entry key="MissingValCounter" type="xlong" value="0"/>
+<config key="attributeValues">
+<entry key="array-size" type="xint" value="5"/>
+<entry key="0" type="xstring" value="Bin 4"/>
+<entry key="1" type="xstring" value="Bin 3"/>
+<entry key="2" type="xstring" value="Bin 2"/>
+<entry key="3" type="xstring" value="Bin 1"/>
+<entry key="4" type="xstring" value="Bin 5"/>
+</config>
+<config key="attributeCounter">
+<entry key="array-size" type="xint" value="5"/>
+<entry key="0" type="xlong" value="74"/>
+<entry key="1" type="xlong" value="505"/>
+<entry key="2" type="xlong" value="419"/>
+<entry key="3" type="xlong" value="85"/>
+<entry key="4" type="xlong" value="4"/>
+</config>
+</config>
+<config key="classValueData_4">
+<entry key="classValue" type="xstring" value="Bin 5"/>
+<entry key="noOfRows" type="xlong" value="133"/>
+<entry key="MissingValCounter" type="xlong" value="0"/>
+<config key="attributeValues">
+<entry key="array-size" type="xint" value="5"/>
+<entry key="0" type="xstring" value="Bin 4"/>
+<entry key="1" type="xstring" value="Bin 3"/>
+<entry key="2" type="xstring" value="Bin 2"/>
+<entry key="3" type="xstring" value="Bin 1"/>
+<entry key="4" type="xstring" value="Bin 5"/>
+</config>
+<config key="attributeCounter">
+<entry key="array-size" type="xint" value="5"/>
+<entry key="0" type="xlong" value="50"/>
+<entry key="1" type="xlong" value="39"/>
+<entry key="2" type="xlong" value="2"/>
+<entry key="3" type="xlong" value="2"/>
+<entry key="4" type="xlong" value="40"/>
+</config>
+</config>
+</config>
+</config>
+<config key="AttributeModelData_19">
+<entry key="attributeName" type="xstring" value="NU_NOTA_COMP4 [Binned]"/>
+<entry key="type" type="xstring" value="NominalModel"/>
+<entry key="skipMissingVals" type="xboolean" value="false"/>
+<entry key="numberOfMissingValues" type="xint" value="0"/>
+<entry key="invalidCause" type="xstring" isnull="true" value=""/>
+<config key="data">
+<entry key="maxNoOfAttrs" type="xlong" value="20"/>
+<entry key="noOfClasses" type="xlong" value="5"/>
+<config key="attributeValues">
+<entry key="array-size" type="xint" value="5"/>
+<entry key="0" type="xstring" value="Bin 3"/>
+<entry key="1" type="xstring" value="Bin 1"/>
+<entry key="2" type="xstring" value="Bin 4"/>
+<entry key="3" type="xstring" value="Bin 2"/>
+<entry key="4" type="xstring" value="Bin 5"/>
+</config>
+<config key="classValueData_0">
+<entry key="classValue" type="xstring" value="Bin 3"/>
+<entry key="noOfRows" type="xlong" value="6412"/>
+<entry key="MissingValCounter" type="xlong" value="0"/>
+<config key="attributeValues">
+<entry key="array-size" type="xint" value="5"/>
+<entry key="0" type="xstring" value="Bin 4"/>
+<entry key="1" type="xstring" value="Bin 3"/>
+<entry key="2" type="xstring" value="Bin 2"/>
+<entry key="3" type="xstring" value="Bin 1"/>
+<entry key="4" type="xstring" value="Bin 5"/>
+</config>
+<config key="attributeCounter">
+<entry key="array-size" type="xint" value="5"/>
+<entry key="0" type="xlong" value="973"/>
+<entry key="1" type="xlong" value="3901"/>
+<entry key="2" type="xlong" value="1185"/>
+<entry key="3" type="xlong" value="250"/>
+<entry key="4" type="xlong" value="103"/>
+</config>
+</config>
+<config key="classValueData_1">
+<entry key="classValue" type="xstring" value="Bin 4"/>
+<entry key="noOfRows" type="xlong" value="1491"/>
+<entry key="MissingValCounter" type="xlong" value="0"/>
+<config key="attributeValues">
+<entry key="array-size" type="xint" value="5"/>
+<entry key="0" type="xstring" value="Bin 4"/>
+<entry key="1" type="xstring" value="Bin 3"/>
+<entry key="2" type="xstring" value="Bin 2"/>
+<entry key="3" type="xstring" value="Bin 1"/>
+<entry key="4" type="xstring" value="Bin 5"/>
+</config>
+<config key="attributeCounter">
+<entry key="array-size" type="xint" value="5"/>
+<entry key="0" type="xlong" value="467"/>
+<entry key="1" type="xlong" value="750"/>
+<entry key="2" type="xlong" value="101"/>
+<entry key="3" type="xlong" value="12"/>
+<entry key="4" type="xlong" value="161"/>
+</config>
+</config>
+<config key="classValueData_2">
+<entry key="classValue" type="xstring" value="Bin 1"/>
+<entry key="noOfRows" type="xlong" value="3234"/>
+<entry key="MissingValCounter" type="xlong" value="0"/>
+<config key="attributeValues">
+<entry key="array-size" type="xint" value="3"/>
+<entry key="0" type="xstring" value="Bin 3"/>
+<entry key="1" type="xstring" value="Bin 2"/>
+<entry key="2" type="xstring" value="Bin 1"/>
+</config>
+<config key="attributeCounter">
+<entry key="array-size" type="xint" value="3"/>
+<entry key="0" type="xlong" value="3"/>
+<entry key="1" type="xlong" value="4"/>
+<entry key="2" type="xlong" value="3227"/>
+</config>
+</config>
+<config key="classValueData_3">
+<entry key="classValue" type="xstring" value="Bin 2"/>
+<entry key="noOfRows" type="xlong" value="1087"/>
+<entry key="MissingValCounter" type="xlong" value="0"/>
+<config key="attributeValues">
+<entry key="array-size" type="xint" value="5"/>
+<entry key="0" type="xstring" value="Bin 4"/>
+<entry key="1" type="xstring" value="Bin 3"/>
+<entry key="2" type="xstring" value="Bin 2"/>
+<entry key="3" type="xstring" value="Bin 1"/>
+<entry key="4" type="xstring" value="Bin 5"/>
+</config>
+<config key="attributeCounter">
+<entry key="array-size" type="xint" value="5"/>
+<entry key="0" type="xlong" value="108"/>
+<entry key="1" type="xlong" value="600"/>
+<entry key="2" type="xlong" value="298"/>
+<entry key="3" type="xlong" value="74"/>
+<entry key="4" type="xlong" value="7"/>
+</config>
+</config>
+<config key="classValueData_4">
+<entry key="classValue" type="xstring" value="Bin 5"/>
+<entry key="noOfRows" type="xlong" value="133"/>
+<entry key="MissingValCounter" type="xlong" value="0"/>
+<config key="attributeValues">
+<entry key="array-size" type="xint" value="4"/>
+<entry key="0" type="xstring" value="Bin 4"/>
+<entry key="1" type="xstring" value="Bin 3"/>
+<entry key="2" type="xstring" value="Bin 1"/>
+<entry key="3" type="xstring" value="Bin 5"/>
+</config>
+<config key="attributeCounter">
+<entry key="array-size" type="xint" value="4"/>
+<entry key="0" type="xlong" value="66"/>
+<entry key="1" type="xlong" value="25"/>
+<entry key="2" type="xlong" value="2"/>
+<entry key="3" type="xlong" value="40"/>
+</config>
+</config>
+</config>
+</config>
+<config key="AttributeModelData_20">
+<entry key="attributeName" type="xstring" value="NU_NOTA_COMP5 [Binned]"/>
+<entry key="type" type="xstring" value="NominalModel"/>
+<entry key="skipMissingVals" type="xboolean" value="false"/>
+<entry key="numberOfMissingValues" type="xint" value="0"/>
+<entry key="invalidCause" type="xstring" isnull="true" value=""/>
+<config key="data">
+<entry key="maxNoOfAttrs" type="xlong" value="20"/>
+<entry key="noOfClasses" type="xlong" value="5"/>
+<config key="attributeValues">
+<entry key="array-size" type="xint" value="5"/>
+<entry key="0" type="xstring" value="Bin 1"/>
+<entry key="1" type="xstring" value="Bin 3"/>
+<entry key="2" type="xstring" value="Bin 4"/>
+<entry key="3" type="xstring" value="Bin 2"/>
+<entry key="4" type="xstring" value="Bin 5"/>
+</config>
+<config key="classValueData_0">
+<entry key="classValue" type="xstring" value="Bin 3"/>
+<entry key="noOfRows" type="xlong" value="6412"/>
+<entry key="MissingValCounter" type="xlong" value="0"/>
+<config key="attributeValues">
+<entry key="array-size" type="xint" value="5"/>
+<entry key="0" type="xstring" value="Bin 4"/>
+<entry key="1" type="xstring" value="Bin 3"/>
+<entry key="2" type="xstring" value="Bin 2"/>
+<entry key="3" type="xstring" value="Bin 1"/>
+<entry key="4" type="xstring" value="Bin 5"/>
+</config>
+<config key="attributeCounter">
+<entry key="array-size" type="xint" value="5"/>
+<entry key="0" type="xlong" value="416"/>
+<entry key="1" type="xlong" value="1598"/>
+<entry key="2" type="xlong" value="2224"/>
+<entry key="3" type="xlong" value="2124"/>
+<entry key="4" type="xlong" value="50"/>
+</config>
+</config>
+<config key="classValueData_1">
+<entry key="classValue" type="xstring" value="Bin 4"/>
+<entry key="noOfRows" type="xlong" value="1491"/>
+<entry key="MissingValCounter" type="xlong" value="0"/>
+<config key="attributeValues">
+<entry key="array-size" type="xint" value="5"/>
+<entry key="0" type="xstring" value="Bin 4"/>
+<entry key="1" type="xstring" value="Bin 3"/>
+<entry key="2" type="xstring" value="Bin 2"/>
+<entry key="3" type="xstring" value="Bin 1"/>
+<entry key="4" type="xstring" value="Bin 5"/>
+</config>
+<config key="attributeCounter">
+<entry key="array-size" type="xint" value="5"/>
+<entry key="0" type="xlong" value="256"/>
+<entry key="1" type="xlong" value="569"/>
+<entry key="2" type="xlong" value="356"/>
+<entry key="3" type="xlong" value="221"/>
+<entry key="4" type="xlong" value="89"/>
+</config>
+</config>
+<config key="classValueData_2">
+<entry key="classValue" type="xstring" value="Bin 1"/>
+<entry key="noOfRows" type="xlong" value="3234"/>
+<entry key="MissingValCounter" type="xlong" value="0"/>
+<config key="attributeValues">
+<entry key="array-size" type="xint" value="3"/>
+<entry key="0" type="xstring" value="Bin 3"/>
+<entry key="1" type="xstring" value="Bin 2"/>
+<entry key="2" type="xstring" value="Bin 1"/>
+</config>
+<config key="attributeCounter">
+<entry key="array-size" type="xint" value="3"/>
+<entry key="0" type="xlong" value="1"/>
+<entry key="1" type="xlong" value="2"/>
+<entry key="2" type="xlong" value="3231"/>
+</config>
+</config>
+<config key="classValueData_3">
+<entry key="classValue" type="xstring" value="Bin 2"/>
+<entry key="noOfRows" type="xlong" value="1087"/>
+<entry key="MissingValCounter" type="xlong" value="0"/>
+<config key="attributeValues">
+<entry key="array-size" type="xint" value="5"/>
+<entry key="0" type="xstring" value="Bin 4"/>
+<entry key="1" type="xstring" value="Bin 3"/>
+<entry key="2" type="xstring" value="Bin 2"/>
+<entry key="3" type="xstring" value="Bin 1"/>
+<entry key="4" type="xstring" value="Bin 5"/>
+</config>
+<config key="attributeCounter">
+<entry key="array-size" type="xint" value="5"/>
+<entry key="0" type="xlong" value="49"/>
+<entry key="1" type="xlong" value="208"/>
+<entry key="2" type="xlong" value="374"/>
+<entry key="3" type="xlong" value="454"/>
+<entry key="4" type="xlong" value="2"/>
+</config>
+</config>
+<config key="classValueData_4">
+<entry key="classValue" type="xstring" value="Bin 5"/>
+<entry key="noOfRows" type="xlong" value="133"/>
+<entry key="MissingValCounter" type="xlong" value="0"/>
+<config key="attributeValues">
+<entry key="array-size" type="xint" value="5"/>
+<entry key="0" type="xstring" value="Bin 4"/>
+<entry key="1" type="xstring" value="Bin 3"/>
+<entry key="2" type="xstring" value="Bin 2"/>
+<entry key="3" type="xstring" value="Bin 1"/>
+<entry key="4" type="xstring" value="Bin 5"/>
+</config>
+<config key="attributeCounter">
+<entry key="array-size" type="xint" value="5"/>
+<entry key="0" type="xlong" value="45"/>
+<entry key="1" type="xlong" value="42"/>
+<entry key="2" type="xlong" value="23"/>
+<entry key="3" type="xlong" value="6"/>
+<entry key="4" type="xlong" value="17"/>
+</config>
+</config>
+</config>
+</config>
+<config key="AttributeModelData_21">
+<entry key="attributeName" type="xstring" value="NU_NOTA_REDACAO [Binned]"/>
+<entry key="type" type="xstring" value="NominalModel"/>
+<entry key="skipMissingVals" type="xboolean" value="false"/>
+<entry key="numberOfMissingValues" type="xint" value="0"/>
+<entry key="invalidCause" type="xstring" isnull="true" value=""/>
+<config key="data">
+<entry key="maxNoOfAttrs" type="xlong" value="20"/>
+<entry key="noOfClasses" type="xlong" value="5"/>
+<config key="attributeValues">
+<entry key="array-size" type="xint" value="5"/>
+<entry key="0" type="xstring" value="Bin 3"/>
+<entry key="1" type="xstring" value="Bin 2"/>
+<entry key="2" type="xstring" value="Bin 4"/>
+<entry key="3" type="xstring" value="Bin 1"/>
+<entry key="4" type="xstring" value="Bin 5"/>
+</config>
+<config key="classValueData_0">
+<entry key="classValue" type="xstring" value="Bin 3"/>
+<entry key="noOfRows" type="xlong" value="6412"/>
+<entry key="MissingValCounter" type="xlong" value="0"/>
+<config key="attributeValues">
+<entry key="array-size" type="xint" value="5"/>
+<entry key="0" type="xstring" value="Bin 4"/>
+<entry key="1" type="xstring" value="Bin 3"/>
+<entry key="2" type="xstring" value="Bin 2"/>
+<entry key="3" type="xstring" value="Bin 1"/>
+<entry key="4" type="xstring" value="Bin 5"/>
+</config>
+<config key="attributeCounter">
+<entry key="array-size" type="xint" value="5"/>
+<entry key="0" type="xlong" value="1133"/>
+<entry key="1" type="xlong" value="3978"/>
+<entry key="2" type="xlong" value="1011"/>
+<entry key="3" type="xlong" value="195"/>
+<entry key="4" type="xlong" value="95"/>
+</config>
+</config>
+<config key="classValueData_1">
+<entry key="classValue" type="xstring" value="Bin 4"/>
+<entry key="noOfRows" type="xlong" value="1491"/>
+<entry key="MissingValCounter" type="xlong" value="0"/>
+<config key="attributeValues">
+<entry key="array-size" type="xint" value="5"/>
+<entry key="0" type="xstring" value="Bin 4"/>
+<entry key="1" type="xstring" value="Bin 3"/>
+<entry key="2" type="xstring" value="Bin 2"/>
+<entry key="3" type="xstring" value="Bin 1"/>
+<entry key="4" type="xstring" value="Bin 5"/>
+</config>
+<config key="attributeCounter">
+<entry key="array-size" type="xint" value="5"/>
+<entry key="0" type="xlong" value="571"/>
+<entry key="1" type="xlong" value="674"/>
+<entry key="2" type="xlong" value="67"/>
+<entry key="3" type="xlong" value="11"/>
+<entry key="4" type="xlong" value="168"/>
+</config>
+</config>
+<config key="classValueData_2">
+<entry key="classValue" type="xstring" value="Bin 1"/>
+<entry key="noOfRows" type="xlong" value="3234"/>
+<entry key="MissingValCounter" type="xlong" value="0"/>
+<config key="attributeValues">
+<entry key="array-size" type="xint" value="3"/>
+<entry key="0" type="xstring" value="Bin 3"/>
+<entry key="1" type="xstring" value="Bin 2"/>
+<entry key="2" type="xstring" value="Bin 1"/>
+</config>
+<config key="attributeCounter">
+<entry key="array-size" type="xint" value="3"/>
+<entry key="0" type="xlong" value="3"/>
+<entry key="1" type="xlong" value="4"/>
+<entry key="2" type="xlong" value="3227"/>
+</config>
+</config>
+<config key="classValueData_3">
+<entry key="classValue" type="xstring" value="Bin 2"/>
+<entry key="noOfRows" type="xlong" value="1087"/>
+<entry key="MissingValCounter" type="xlong" value="0"/>
+<config key="attributeValues">
+<entry key="array-size" type="xint" value="5"/>
+<entry key="0" type="xstring" value="Bin 4"/>
+<entry key="1" type="xstring" value="Bin 3"/>
+<entry key="2" type="xstring" value="Bin 2"/>
+<entry key="3" type="xstring" value="Bin 1"/>
+<entry key="4" type="xstring" value="Bin 5"/>
+</config>
+<config key="attributeCounter">
+<entry key="array-size" type="xint" value="5"/>
+<entry key="0" type="xlong" value="126"/>
+<entry key="1" type="xlong" value="646"/>
+<entry key="2" type="xlong" value="258"/>
+<entry key="3" type="xlong" value="52"/>
+<entry key="4" type="xlong" value="5"/>
+</config>
+</config>
+<config key="classValueData_4">
+<entry key="classValue" type="xstring" value="Bin 5"/>
+<entry key="noOfRows" type="xlong" value="133"/>
+<entry key="MissingValCounter" type="xlong" value="0"/>
+<config key="attributeValues">
+<entry key="array-size" type="xint" value="4"/>
+<entry key="0" type="xstring" value="Bin 4"/>
+<entry key="1" type="xstring" value="Bin 3"/>
+<entry key="2" type="xstring" value="Bin 1"/>
+<entry key="3" type="xstring" value="Bin 5"/>
+</config>
+<config key="attributeCounter">
+<entry key="array-size" type="xint" value="4"/>
+<entry key="0" type="xlong" value="72"/>
+<entry key="1" type="xlong" value="19"/>
+<entry key="2" type="xlong" value="2"/>
+<entry key="3" type="xlong" value="40"/>
+</config>
+</config>
+</config>
+</config>
+</config>
+</config>

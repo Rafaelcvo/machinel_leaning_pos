@@ -1,0 +1,191 @@
+2020-03-02 14:40:29,412 : WARN  : Worker-5 :  : WorkflowCoachView :  :  : Could not update node recommendations statistics.
+java.io.IOException: Downloaded file doesn't contain node recommendation data.
+	at org.knime.workbench.workflowcoach.data.AbstractFileDownloadTripleProvider.checkDownloadedFile(AbstractFileDownloadTripleProvider.java:190)
+	at org.knime.workbench.workflowcoach.data.AbstractFileDownloadTripleProvider.update(AbstractFileDownloadTripleProvider.java:169)
+	at org.knime.workbench.workflowcoach.prefs.UpdateJob.run(UpdateJob.java:132)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+2020-03-02 14:40:41,209 : WARN  : main :  : Node : CSV Reader : 2:1 : No settings available
+2020-03-02 15:03:44,775 : WARN  : main :  : Node : Naive Bayes Learner : 2:5 : Classification column preset to null
+2020-03-02 15:03:44,775 : WARN  : main :  : Node : Naive Bayes Learner : 2:5 : Classification column not found in input table
+2020-03-02 15:05:37,434 : WARN  : main :  : Node : Naive Bayes Learner : 2:5 : Classification column preset to null
+2020-03-02 15:05:37,435 : WARN  : main :  : Node : Naive Bayes Learner : 2:5 : Classification column not found in input table
+2020-03-02 15:05:56,657 : WARN  : main :  : Node : Naive Bayes Learner : 2:5 : Classification column preset to null
+2020-03-02 15:05:56,658 : WARN  : main :  : Node : Naive Bayes Learner : 2:5 : Classification column not found in input table
+2020-03-02 15:05:58,896 : WARN  : KNIME-Worker-9-X-Partitioner 2:4 :  : Node : Naive Bayes Learner : 2:5 : Classification column preset to null
+2020-03-02 15:05:58,896 : WARN  : KNIME-Worker-9-X-Partitioner 2:4 :  : Node : Naive Bayes Learner : 2:5 : Classification column not found in input table
+2020-03-02 15:07:11,109 : WARN  : main :  : Node : Naive Bayes Learner : 2:5 : Please define the classification column
+2020-03-02 15:07:16,859 : WARN  : KNIME-Worker-10-Auto-Binner 2:8 :  : Node : Naive Bayes Learner : 2:5 : Please define the classification column
+2020-03-02 15:07:17,043 : WARN  : KNIME-Worker-11-X-Partitioner 2:4 :  : Node : Naive Bayes Learner : 2:5 : Please define the classification column
+2020-03-02 15:07:27,912 : WARN  : main :  : Node : X-Aggregator : 2:7 : Selected columns 'Prediction (NU_NOTA_REDACAO [Binned])' and 'NU_NOTA_REDACAO [Binned]' as prediction and target columns
+2020-03-02 15:08:28,606 : WARN  : main :  : Node : Scorer : 2:9 : No columns selected yet.
+2020-03-02 15:08:58,417 : WARN  : main :  : WrappedNodeDialog : Scorer : 2:9 : failed to apply settings: First and second column cannot be the same.
+org.knime.core.node.InvalidSettingsException: First and second column cannot be the same.
+	at org.knime.base.node.mine.scorer.accuracy.AccuracyScorerNodeDialog.saveSettingsTo(AccuracyScorerNodeDialog.java:335)
+	at org.knime.core.node.NodeDialogPane.internalSaveSettingsTo(NodeDialogPane.java:525)
+	at org.knime.core.node.NodeDialogPane$5.run(NodeDialogPane.java:762)
+	at org.knime.core.node.util.ViewUtils$3.run(ViewUtils.java:353)
+	at org.knime.core.node.util.ViewUtils$2.run(ViewUtils.java:155)
+	at java.awt.event.InvocationEvent.dispatch(InvocationEvent.java:311)
+	at java.awt.EventQueue.dispatchEventImpl(EventQueue.java:758)
+	at java.awt.EventQueue.access$500(EventQueue.java:97)
+	at java.awt.EventQueue$3.run(EventQueue.java:709)
+	at java.awt.EventQueue$3.run(EventQueue.java:703)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:74)
+	at java.awt.EventQueue.dispatchEvent(EventQueue.java:728)
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:205)
+	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:116)
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:105)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:93)
+	at java.awt.EventDispatchThread.run(EventDispatchThread.java:82)
+2020-03-02 15:15:37,733 : WARN  : main :  : Node : Scorer : 2:9 : No columns selected yet.
+2020-03-02 15:20:08,571 : ERROR : ModalContext :  : Node : Scorer : 2:9 : Unable to save internals: Java heap space
+java.lang.OutOfMemoryError: Java heap space
+	at org.knime.core.node.config.base.ConfigBase.<init>(ConfigBase.java:126)
+	at org.knime.core.node.config.Config.<init>(Config.java:462)
+	at org.knime.core.node.NodeSettings.<init>(NodeSettings.java:72)
+	at org.knime.core.node.NodeSettings.getInstance(NodeSettings.java:80)
+	at org.knime.core.node.NodeSettings.getInstance(NodeSettings.java:1)
+	at org.knime.core.node.config.base.ConfigBase.addConfigBase(ConfigBase.java:145)
+	at org.knime.core.node.config.base.ConfigBase.addStringArray(ConfigBase.java:1146)
+	at org.knime.core.node.config.Config.addRowKeyArray(Config.java:788)
+	at org.knime.base.node.mine.scorer.accuracy.AccuracyScorerNodeModel.saveInternals(AccuracyScorerNodeModel.java:811)
+	at org.knime.core.node.Node.saveInternals(Node.java:2304)
+	at org.knime.core.node.FileNodePersistor.saveNodeInternDirectory(FileNodePersistor.java:1460)
+	at org.knime.core.node.FileNodePersistor.save(FileNodePersistor.java:1187)
+	at org.knime.core.node.workflow.FileNativeNodeContainerPersistor.save(FileNativeNodeContainerPersistor.java:534)
+	at org.knime.core.node.workflow.FileSingleNodeContainerPersistor.save(FileSingleNodeContainerPersistor.java:592)
+	at org.knime.core.node.workflow.FileWorkflowPersistor.saveNodeContainer(FileWorkflowPersistor.java:2172)
+	at org.knime.core.node.workflow.FileWorkflowPersistor.saveContent(FileWorkflowPersistor.java:1927)
+	at org.knime.core.node.workflow.FileWorkflowPersistor.save(FileWorkflowPersistor.java:1841)
+	at org.knime.core.node.workflow.WorkflowManager.save(WorkflowManager.java:8395)
+	at org.knime.workbench.editor2.InplaceSaveRunnable.save(InplaceSaveRunnable.java:92)
+	at org.knime.workbench.editor2.AbstractSaveRunnable.run(AbstractSaveRunnable.java:103)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:119)
+2020-03-02 15:39:04,260 : WARN  : main :  : Node : CSV Reader : 2:10 : No settings available
+2020-03-02 15:41:06,697 : WARN  : KNIME-Worker-22-CSV Reader 2:10 :  : Node : Naive Bayes Predictor : 2:6 : The following attributes are missing in the input data: NU_NOTA_MT, NU_NOTA_MT [Binned]
+2020-03-02 15:41:06,697 : WARN  : KNIME-Worker-22-CSV Reader 2:10 :  : Node : Scorer : 2:9 : Column NU_NOTA_MT [Binned] not found.
+2020-03-02 15:41:06,769 : WARN  : KNIME-Worker-23-Missing Value 2:11 :  : Node : Naive Bayes Predictor : 2:6 : The following attributes are missing in the input data: NU_NOTA_MT, NU_NOTA_MT [Binned]
+2020-03-02 15:41:06,770 : WARN  : KNIME-Worker-23-Missing Value 2:11 :  : Node : Scorer : 2:9 : Column NU_NOTA_MT [Binned] not found.
+2020-03-02 15:41:06,831 : WARN  : KNIME-Worker-21-Auto-Binner 2:13 :  : Node : Naive Bayes Predictor : 2:6 : The following attributes are missing in the input data: NU_NOTA_MT, NU_NOTA_MT [Binned]
+2020-03-02 15:41:06,832 : WARN  : KNIME-Worker-21-Auto-Binner 2:13 :  : Node : Scorer : 2:9 : Column NU_NOTA_MT [Binned] not found.
+2020-03-02 15:41:07,219 : WARN  : KNIME-Worker-22-Naive Bayes Predictor 2:6 :  : Node : Scorer : 2:9 : Column NU_NOTA_MT [Binned] not found.
+2020-03-02 15:45:40,863 : WARN  : main :  : Node : Scorer : 2:9 : Column Prediction (NU_NOTA_REDACAO [Binned]) not found.
+2020-03-02 15:45:44,561 : WARN  : KNIME-Worker-28-Naive Bayes Predictor 2:6 :  : Node : Scorer : 2:9 : Column Prediction (NU_NOTA_REDACAO [Binned]) not found.
+2020-03-02 15:46:24,895 : WARN  : main :  : Node : Naive Bayes Predictor : 2:6 : The following attributes are missing in the input data: NU_NOTA_MT
+2020-03-02 15:46:24,895 : WARN  : main :  : Node : Scorer : 2:9 : Column NU_NOTA_MT not found.
+2020-03-02 15:47:34,041 : WARN  : main :  : Node : Naive Bayes Predictor : 2:6 : The following attributes are missing in the input data: NU_NOTA_MT
+2020-03-02 15:47:34,042 : WARN  : main :  : Node : Scorer : 2:9 : Column NU_NOTA_MT not found.
+2020-03-02 15:47:35,049 : WARN  : main :  : Node : Naive Bayes Predictor : 2:6 : The following attributes are missing in the input data: NU_NOTA_MT
+2020-03-02 15:47:35,050 : WARN  : main :  : Node : Scorer : 2:9 : Column NU_NOTA_MT not found.
+2020-03-02 15:49:00,029 : WARN  : main :  : Node : Naive Bayes Predictor : 2:6 : The following attributes are missing in the input data: NU_NOTA_MT
+2020-03-02 15:49:00,030 : WARN  : main :  : Node : Scorer : 2:9 : Column NU_NOTA_MT not found.
+2020-03-02 15:49:10,018 : WARN  : main :  : Node : Naive Bayes Predictor : 2:6 : The following attributes are missing in the input data: NU_NOTA_MT
+2020-03-02 15:49:10,019 : WARN  : main :  : Node : Scorer : 2:9 : Column NU_NOTA_MT not found.
+2020-03-02 15:49:12,855 : WARN  : KNIME-Worker-31-Naive Bayes Predictor 2:6 :  : Node : Scorer : 2:9 : Column NU_NOTA_MT not found.
+2020-03-02 15:49:41,840 : WARN  : main :  : WrappedNodeDialog : Scorer : 2:9 : failed to apply settings: First and second column cannot be the same.
+org.knime.core.node.InvalidSettingsException: First and second column cannot be the same.
+	at org.knime.base.node.mine.scorer.accuracy.AccuracyScorerNodeDialog.saveSettingsTo(AccuracyScorerNodeDialog.java:335)
+	at org.knime.core.node.NodeDialogPane.internalSaveSettingsTo(NodeDialogPane.java:525)
+	at org.knime.core.node.NodeDialogPane$5.run(NodeDialogPane.java:762)
+	at org.knime.core.node.util.ViewUtils$3.run(ViewUtils.java:353)
+	at org.knime.core.node.util.ViewUtils$2.run(ViewUtils.java:155)
+	at java.awt.event.InvocationEvent.dispatch(InvocationEvent.java:311)
+	at java.awt.EventQueue.dispatchEventImpl(EventQueue.java:758)
+	at java.awt.EventQueue.access$500(EventQueue.java:97)
+	at java.awt.EventQueue$3.run(EventQueue.java:709)
+	at java.awt.EventQueue$3.run(EventQueue.java:703)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:74)
+	at java.awt.EventQueue.dispatchEvent(EventQueue.java:728)
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:205)
+	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:116)
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:105)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:93)
+	at java.awt.EventDispatchThread.run(EventDispatchThread.java:82)
+2020-03-02 15:52:17,037 : WARN  : main :  : Node : X-Aggregator : 2:7 : No such column: Prediction (NU_NOTA_REDACAO [Binned])
+2020-03-02 15:52:32,844 : WARN  : main :  : Node : X-Aggregator : 2:7 : Target and prediction column are not of compatible type
+2020-03-02 15:52:51,216 : WARN  : main :  : Node : X-Aggregator : 2:7 : Target and prediction column are not of compatible type
+2020-03-02 15:52:52,505 : WARN  : main :  : Node : X-Aggregator : 2:7 : Target and prediction column are not of compatible type
+2020-03-02 15:53:18,410 : WARN  : main :  : Node : X-Aggregator : 2:7 : Target and prediction column are not of compatible type
+2020-03-02 15:53:45,097 : WARN  : main :  : Node : X-Aggregator : 2:7 : Target and prediction column are not of compatible type
+2020-03-02 16:00:50,834 : WARN  : KNIME-Worker-36-CSV Reader 2:12 :  : Node : RProp MLP Learner : 2:19 : Class column not set
+2020-03-02 16:00:50,931 : WARN  : KNIME-Worker-38-Missing Value 2:15 :  : Node : RProp MLP Learner : 2:19 : Class column not set
+2020-03-02 16:00:50,994 : WARN  : KNIME-Worker-36-Auto-Binner 2:17 :  : Node : RProp MLP Learner : 2:19 : Class column not set
+2020-03-02 16:00:51,065 : WARN  : KNIME-Worker-37-X-Partitioner 2:16 :  : Node : RProp MLP Learner : 2:19 : Class column not set
+2020-03-02 16:01:14,266 : WARN  : main :  : Node : RProp MLP Learner : 2:19 : Input data not normalized. Please consider using the Normalizer Node first.
+2020-03-02 16:01:14,266 : WARN  : main :  : Node : RProp MLP Learner : 2:19 : Input data not normalized. Please consider using the Normalizer Node first.
+2020-03-02 16:01:14,267 : WARN  : main :  : Node : RProp MLP Learner : 2:19 : Input data not normalized. Please consider using the Normalizer Node first.
+2020-03-02 16:01:14,267 : WARN  : main :  : Node : RProp MLP Learner : 2:19 : Input data not normalized. Please consider using the Normalizer Node first.
+2020-03-02 16:01:14,267 : WARN  : main :  : Node : RProp MLP Learner : 2:19 : Input data not normalized. Please consider using the Normalizer Node first.
+2020-03-02 16:01:14,267 : WARN  : main :  : Node : RProp MLP Learner : 2:19 : Input data not normalized. Please consider using the Normalizer Node first.
+2020-03-02 16:01:14,267 : WARN  : main :  : Node : RProp MLP Learner : 2:19 : Input data not normalized. Please consider using the Normalizer Node first.
+2020-03-02 16:01:14,268 : WARN  : main :  : Node : RProp MLP Learner : 2:19 : Input data not normalized. Please consider using the Normalizer Node first.
+2020-03-02 16:01:14,268 : WARN  : main :  : Node : RProp MLP Learner : 2:19 : Input data not normalized. Please consider using the Normalizer Node first.
+2020-03-02 16:01:14,268 : WARN  : main :  : Node : RProp MLP Learner : 2:19 : Input data not normalized. Please consider using the Normalizer Node first.
+2020-03-02 16:01:14,268 : WARN  : main :  : Node : RProp MLP Learner : 2:19 : Input data not normalized. Please consider using the Normalizer Node first.
+2020-03-02 16:01:14,268 : WARN  : main :  : Node : RProp MLP Learner : 2:19 : Only double columns for input
+2020-03-02 16:01:50,386 : WARN  : main :  : Node : RProp MLP Learner : 2:19 : Input data not normalized. Please consider using the Normalizer Node first.
+2020-03-02 16:01:50,386 : WARN  : main :  : Node : RProp MLP Learner : 2:19 : Input data not normalized. Please consider using the Normalizer Node first.
+2020-03-02 16:01:50,387 : WARN  : main :  : Node : RProp MLP Learner : 2:19 : Input data not normalized. Please consider using the Normalizer Node first.
+2020-03-02 16:01:50,387 : WARN  : main :  : Node : RProp MLP Learner : 2:19 : Input data not normalized. Please consider using the Normalizer Node first.
+2020-03-02 16:01:50,387 : WARN  : main :  : Node : RProp MLP Learner : 2:19 : Input data not normalized. Please consider using the Normalizer Node first.
+2020-03-02 16:01:50,387 : WARN  : main :  : Node : RProp MLP Learner : 2:19 : Input data not normalized. Please consider using the Normalizer Node first.
+2020-03-02 16:01:50,387 : WARN  : main :  : Node : RProp MLP Learner : 2:19 : Input data not normalized. Please consider using the Normalizer Node first.
+2020-03-02 16:01:50,388 : WARN  : main :  : Node : RProp MLP Learner : 2:19 : Input data not normalized. Please consider using the Normalizer Node first.
+2020-03-02 16:01:50,388 : WARN  : main :  : Node : RProp MLP Learner : 2:19 : Input data not normalized. Please consider using the Normalizer Node first.
+2020-03-02 16:01:50,388 : WARN  : main :  : Node : RProp MLP Learner : 2:19 : Input data not normalized. Please consider using the Normalizer Node first.
+2020-03-02 16:01:50,388 : WARN  : main :  : Node : RProp MLP Learner : 2:19 : Input data not normalized. Please consider using the Normalizer Node first.
+2020-03-02 16:01:50,388 : WARN  : main :  : Node : RProp MLP Learner : 2:19 : Only double columns for input
+2020-03-02 16:01:56,874 : WARN  : main :  : Node : RProp MLP Learner : 2:19 : Input data not normalized. Please consider using the Normalizer Node first.
+2020-03-02 16:01:56,874 : WARN  : main :  : Node : RProp MLP Learner : 2:19 : Input data not normalized. Please consider using the Normalizer Node first.
+2020-03-02 16:01:56,874 : WARN  : main :  : Node : RProp MLP Learner : 2:19 : Input data not normalized. Please consider using the Normalizer Node first.
+2020-03-02 16:01:56,875 : WARN  : main :  : Node : RProp MLP Learner : 2:19 : Domain range for regression in column NU_NOTA_MT not in range [0,1]
+2020-03-02 16:01:59,026 : WARN  : main :  : Node : RProp MLP Learner : 2:19 : Input data not normalized. Please consider using the Normalizer Node first.
+2020-03-02 16:01:59,027 : WARN  : main :  : Node : RProp MLP Learner : 2:19 : Input data not normalized. Please consider using the Normalizer Node first.
+2020-03-02 16:01:59,027 : WARN  : main :  : Node : RProp MLP Learner : 2:19 : Input data not normalized. Please consider using the Normalizer Node first.
+2020-03-02 16:01:59,027 : WARN  : main :  : Node : RProp MLP Learner : 2:19 : Domain range for regression in column NU_NOTA_MT not in range [0,1]
+2020-03-02 16:02:49,463 : WARN  : main :  : Node : RProp MLP Learner : 2:19 : Input data not normalized. Please consider using the Normalizer Node first.
+2020-03-02 16:02:49,464 : WARN  : main :  : Node : RProp MLP Learner : 2:19 : Input data not normalized. Please consider using the Normalizer Node first.
+2020-03-02 16:02:49,464 : WARN  : main :  : Node : RProp MLP Learner : 2:19 : Input data not normalized. Please consider using the Normalizer Node first.
+2020-03-02 16:02:49,464 : WARN  : main :  : Node : RProp MLP Learner : 2:19 : Input data not normalized. Please consider using the Normalizer Node first.
+2020-03-02 16:02:49,465 : WARN  : main :  : Node : RProp MLP Learner : 2:19 : Input data not normalized. Please consider using the Normalizer Node first.
+2020-03-02 16:02:49,465 : WARN  : main :  : Node : RProp MLP Learner : 2:19 : Input data not normalized. Please consider using the Normalizer Node first.
+2020-03-02 16:02:49,465 : WARN  : main :  : Node : RProp MLP Learner : 2:19 : Input data not normalized. Please consider using the Normalizer Node first.
+2020-03-02 16:02:49,465 : WARN  : main :  : Node : RProp MLP Learner : 2:19 : Input data not normalized. Please consider using the Normalizer Node first.
+2020-03-02 16:02:49,465 : WARN  : main :  : Node : RProp MLP Learner : 2:19 : Input data not normalized. Please consider using the Normalizer Node first.
+2020-03-02 16:02:49,465 : WARN  : main :  : Node : RProp MLP Learner : 2:19 : Input data not normalized. Please consider using the Normalizer Node first.
+2020-03-02 16:02:49,465 : WARN  : main :  : Node : RProp MLP Learner : 2:19 : Input data not normalized. Please consider using the Normalizer Node first.
+2020-03-02 16:02:49,466 : WARN  : main :  : Node : RProp MLP Learner : 2:19 : Only double columns for input
+2020-03-02 16:03:00,022 : WARN  : main :  : Node : RProp MLP Learner : 2:19 : Input data not normalized. Please consider using the Normalizer Node first.
+2020-03-02 16:03:00,022 : WARN  : main :  : Node : RProp MLP Learner : 2:19 : Input data not normalized. Please consider using the Normalizer Node first.
+2020-03-02 16:03:00,022 : WARN  : main :  : Node : RProp MLP Learner : 2:19 : Input data not normalized. Please consider using the Normalizer Node first.
+2020-03-02 16:03:00,022 : WARN  : main :  : Node : RProp MLP Learner : 2:19 : Input data not normalized. Please consider using the Normalizer Node first.
+2020-03-02 16:03:00,022 : WARN  : main :  : Node : RProp MLP Learner : 2:19 : Input data not normalized. Please consider using the Normalizer Node first.
+2020-03-02 16:03:00,022 : WARN  : main :  : Node : RProp MLP Learner : 2:19 : Input data not normalized. Please consider using the Normalizer Node first.
+2020-03-02 16:03:00,022 : WARN  : main :  : Node : RProp MLP Learner : 2:19 : Input data not normalized. Please consider using the Normalizer Node first.
+2020-03-02 16:03:00,022 : WARN  : main :  : Node : RProp MLP Learner : 2:19 : Input data not normalized. Please consider using the Normalizer Node first.
+2020-03-02 16:03:00,022 : WARN  : main :  : Node : RProp MLP Learner : 2:19 : Input data not normalized. Please consider using the Normalizer Node first.
+2020-03-02 16:03:00,022 : WARN  : main :  : Node : RProp MLP Learner : 2:19 : Input data not normalized. Please consider using the Normalizer Node first.
+2020-03-02 16:03:00,022 : WARN  : main :  : Node : RProp MLP Learner : 2:19 : Input data not normalized. Please consider using the Normalizer Node first.
+2020-03-02 16:03:00,022 : WARN  : main :  : Node : RProp MLP Learner : 2:19 : Only double columns for input
+2020-03-02 16:03:10,654 : WARN  : KNIME-Worker-39-X-Partitioner 2:16 :  : Node : RProp MLP Learner : 2:19 : Input data not normalized. Please consider using the Normalizer Node first.
+2020-03-02 16:03:10,654 : WARN  : KNIME-Worker-39-X-Partitioner 2:16 :  : Node : RProp MLP Learner : 2:19 : Input data not normalized. Please consider using the Normalizer Node first.
+2020-03-02 16:03:10,654 : WARN  : KNIME-Worker-39-X-Partitioner 2:16 :  : Node : RProp MLP Learner : 2:19 : Input data not normalized. Please consider using the Normalizer Node first.
+2020-03-02 16:03:10,654 : WARN  : KNIME-Worker-39-X-Partitioner 2:16 :  : Node : RProp MLP Learner : 2:19 : Input data not normalized. Please consider using the Normalizer Node first.
+2020-03-02 16:03:10,654 : WARN  : KNIME-Worker-39-X-Partitioner 2:16 :  : Node : RProp MLP Learner : 2:19 : Input data not normalized. Please consider using the Normalizer Node first.
+2020-03-02 16:03:10,654 : WARN  : KNIME-Worker-39-X-Partitioner 2:16 :  : Node : RProp MLP Learner : 2:19 : Input data not normalized. Please consider using the Normalizer Node first.
+2020-03-02 16:03:10,654 : WARN  : KNIME-Worker-39-X-Partitioner 2:16 :  : Node : RProp MLP Learner : 2:19 : Input data not normalized. Please consider using the Normalizer Node first.
+2020-03-02 16:03:10,654 : WARN  : KNIME-Worker-39-X-Partitioner 2:16 :  : Node : RProp MLP Learner : 2:19 : Input data not normalized. Please consider using the Normalizer Node first.
+2020-03-02 16:03:10,655 : WARN  : KNIME-Worker-39-X-Partitioner 2:16 :  : Node : RProp MLP Learner : 2:19 : Input data not normalized. Please consider using the Normalizer Node first.
+2020-03-02 16:03:10,655 : WARN  : KNIME-Worker-39-X-Partitioner 2:16 :  : Node : RProp MLP Learner : 2:19 : Input data not normalized. Please consider using the Normalizer Node first.
+2020-03-02 16:03:10,655 : WARN  : KNIME-Worker-39-X-Partitioner 2:16 :  : Node : RProp MLP Learner : 2:19 : Input data not normalized. Please consider using the Normalizer Node first.
+2020-03-02 16:03:10,655 : WARN  : KNIME-Worker-39-X-Partitioner 2:16 :  : Node : RProp MLP Learner : 2:19 : Only double columns for input
+2020-03-02 16:03:57,630 : WARN  : main :  : Node : Normalizer : 2:21 : Auto-configure: [0, 1] normalization on all numeric columns: "NU_NOTA_CN", "NU_NOTA_CH", "NU_NOTA_LC",  ... <8 more>
+2020-03-02 16:03:57,635 : WARN  : main :  : Node : RProp MLP Learner : 2:19 : Only double columns for input
+2020-03-02 16:04:09,491 : WARN  : main :  : Node : RProp MLP Learner : 2:19 : Only double columns for input
+2020-03-02 16:04:13,615 : WARN  : KNIME-Worker-40-Normalizer 2:21 :  : Node : RProp MLP Learner : 2:19 : Only double columns for input
+2020-03-02 16:04:13,801 : WARN  : KNIME-Worker-41-X-Partitioner 2:16 :  : Node : RProp MLP Learner : 2:19 : Only double columns for input
+2020-03-02 16:04:25,859 : WARN  : main :  : Node : RProp MLP Learner : 2:19 : Only double columns for input
