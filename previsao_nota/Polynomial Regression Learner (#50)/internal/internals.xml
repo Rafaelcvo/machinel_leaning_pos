@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config xmlns="http://www.knime.org/2008/09/XMLConfig" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.knime.org/2008/09/XMLConfig http://www.knime.org/XMLConfig_2008_09.xsd" key="internals">
+<config key="betas">
+<entry key="array-size" type="xint" value="9"/>
+<entry key="0" type="xdouble" value="-0.6471415352621719"/>
+<entry key="1" type="xdouble" value="-0.551438170410718"/>
+<entry key="2" type="xdouble" value="8.462749522005031E-4"/>
+<entry key="3" type="xdouble" value="-0.20517529406481289"/>
+<entry key="4" type="xdouble" value="7.60522623865108E-4"/>
+<entry key="5" type="xdouble" value="1.0042817828593111"/>
+<entry key="6" type="xdouble" value="-4.6116401616401833E-4"/>
+<entry key="7" type="xdouble" value="0.32970487938376364"/>
+<entry key="8" type="xdouble" value="-2.697327383102478E-4"/>
+</config>
+<config key="columnNames">
+<entry key="array-size" type="xint" value="4"/>
+<entry key="0" type="xstring" value="NU_NOTA_CN"/>
+<entry key="1" type="xstring" value="NU_NOTA_CH"/>
+<entry key="2" type="xstring" value="NU_NOTA_LC"/>
+<entry key="3" type="xstring" value="NU_NOTA_MT"/>
+</config>
+<entry key="squaredError" type="xdouble" value="11439.83989809151"/>
+<entry key="adjustedSquaredError" type="xdouble" value="0.8401895320387935"/>
+<config key="meanValues">
+<entry key="array-size" type="xint" value="4"/>
+<entry key="0" type="xdouble" value="357.1047503439363"/>
+<entry key="1" type="xdouble" value="399.1743303390798"/>
+<entry key="2" type="xdouble" value="381.7232176094522"/>
+<entry key="3" type="xdouble" value="356.8486040301045"/>
+</config>
+<config key="stdErrors">
+<entry key="array-size" type="xint" value="9"/>
+<entry key="0" type="xdouble" value="0.13458894917168251"/>
+<entry key="1" type="xdouble" value="0.12776579344324035"/>
+<entry key="2" type="xdouble" value="0.09254564276087271"/>
+<entry key="3" type="xdouble" value="0.0863038483058169"/>
+<entry key="4" type="xdouble" value="1.4257781005602152E-4"/>
+<entry key="5" type="xdouble" value="1.286693275795466E-4"/>
+<entry key="6" type="xdouble" value="9.838951322021577E-5"/>
+<entry key="7" type="xdouble" value="8.284132419204508E-5"/>
+<entry key="8" type="xdouble" value="1.9386273201762187"/>
+</config>
+<config key="tValues">
+<entry key="array-size" type="xint" value="9"/>
+<entry key="0" type="xdouble" value="-4.097202436043244"/>
+<entry key="1" type="xdouble" value="-1.605870307970666"/>
+<entry key="2" type="xdouble" value="10.851745721343788"/>
+<entry key="3" type="xdouble" value="3.8202801596454585"/>
+<entry key="4" type="xdouble" value="5.935530584092894"/>
+<entry key="5" type="xdouble" value="5.910675358079679"/>
+<entry key="6" type="xdouble" value="-4.687125701413314"/>
+<entry key="7" type="xdouble" value="-3.2560167397245583"/>
+<entry key="8" type="xdouble" value="-0.33381430692070696"/>
+</config>
+<config key="pValues">
+<entry key="array-size" type="xint" value="9"/>
+<entry key="0" type="xdouble" value="4.20843789306069E-5"/>
+<entry key="1" type="xdouble" value="0.10832797950615602"/>
+<entry key="2" type="xdouble" value="0.0"/>
+<entry key="3" type="xdouble" value="1.3395317780817706E-4"/>
+<entry key="4" type="xdouble" value="3.00759150917429E-9"/>
+<entry key="5" type="xdouble" value="3.497037548427784E-9"/>
+<entry key="6" type="xdouble" value="2.800309162331871E-6"/>
+<entry key="7" type="xdouble" value="0.0011329168057272465"/>
+<entry key="8" type="xdouble" value="0.7385253552631363"/>
+</config>
+</config>

@@ -189,3 +189,98 @@ org.knime.core.node.InvalidSettingsException: First and second column cannot be 
 2020-03-02 16:04:13,615 : WARN  : KNIME-Worker-40-Normalizer 2:21 :  : Node : RProp MLP Learner : 2:19 : Only double columns for input
 2020-03-02 16:04:13,801 : WARN  : KNIME-Worker-41-X-Partitioner 2:16 :  : Node : RProp MLP Learner : 2:19 : Only double columns for input
 2020-03-02 16:04:25,859 : WARN  : main :  : Node : RProp MLP Learner : 2:19 : Only double columns for input
+2020-03-02 18:40:40,691 : WARN  : ModalContext :  : Node : X-Aggregator : 0:7 : Target and prediction column are not of compatible type
+2020-03-02 18:40:40,721 : WARN  : ModalContext :  : Node : RProp MLP Learner : 0:19 : Only double columns for input
+2020-03-02 19:13:13,436 : WARN  : main :  : Node : Gradient Boosted Trees Learner : 0:37 : No configuration available
+2020-03-02 19:13:58,300 : WARN  : main :  : Node : Gradient Boosted Trees Learner : 0:37 : No configuration available
+2020-03-02 19:14:08,242 : WARN  : main :  : Node : Gradient Boosted Trees Learner : 0:37 : No configuration available
+2020-03-02 19:15:06,798 : WARN  : main :  : Node : Decision Tree Learner : 0:36 : Table contains no nominal attribute for classification.
+2020-03-02 19:15:37,744 : WARN  : KNIME-Worker-7-X-Partitioner 0:33 :  : Node : Decision Tree Learner : 0:36 : Table contains no nominal attribute for classification.
+2020-03-02 19:16:26,698 : WARN  : main :  : Node : Decision Tree Learner : 0:36 : Guessing target column: "NU_NOTA_REDACAO [Binned]".
+2020-03-02 19:31:34,533 : WARN  : ModalContext :  : Node : X-Aggregator : 0:7 : Target and prediction column are not of compatible type
+2020-03-02 19:31:34,544 : WARN  : ModalContext :  : Node : RProp MLP Learner : 0:19 : Only double columns for input
+2020-03-02 19:32:56,841 : WARN  : main :  : Node : Numeric Scorer : 0:39 : No columns selected for reference
+2020-03-02 19:32:59,527 : WARN  : main :  : Node : Scorer : 0:38 : No columns selected yet.
+2020-03-02 19:33:20,024 : WARN  : KNIME-Worker-3-Numeric Scorer 0:39 :  : NodeContainer : Numeric Scorer : 0:39 : Can't continue loop as the workflow was restored with the loop being partially executed. Reset loop start and execute entire loop again.
+org.knime.core.node.workflow.IllegalFlowObjectStackException: Can't continue loop as the workflow was restored with the loop being partially executed. Reset loop start and execute entire loop again.
+	at org.knime.core.node.workflow.WorkflowManager.doBeforeExecution(WorkflowManager.java:2988)
+	at org.knime.core.node.workflow.NodeContainer.notifyParentExecuteStart(NodeContainer.java:601)
+	at org.knime.core.node.workflow.NodeExecutionJob.internalRun(NodeExecutionJob.java:178)
+	at org.knime.core.node.workflow.NodeExecutionJob.run(NodeExecutionJob.java:124)
+	at org.knime.core.util.ThreadUtils$RunnableWithContextImpl.runWithContext(ThreadUtils.java:334)
+	at org.knime.core.util.ThreadUtils$RunnableWithContext.run(ThreadUtils.java:210)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at org.knime.core.util.ThreadPool$MyFuture.run(ThreadPool.java:123)
+	at org.knime.core.util.ThreadPool$Worker.run(ThreadPool.java:246)
+2020-03-02 19:33:55,542 : WARN  : KNIME-Worker-4-Scorer 0:38 :  : NodeContainer : Scorer : 0:38 : Can't continue loop as the workflow was restored with the loop being partially executed. Reset loop start and execute entire loop again.
+org.knime.core.node.workflow.IllegalFlowObjectStackException: Can't continue loop as the workflow was restored with the loop being partially executed. Reset loop start and execute entire loop again.
+	at org.knime.core.node.workflow.WorkflowManager.doBeforeExecution(WorkflowManager.java:2988)
+	at org.knime.core.node.workflow.NodeContainer.notifyParentExecuteStart(NodeContainer.java:601)
+	at org.knime.core.node.workflow.NodeExecutionJob.internalRun(NodeExecutionJob.java:178)
+	at org.knime.core.node.workflow.NodeExecutionJob.run(NodeExecutionJob.java:124)
+	at org.knime.core.util.ThreadUtils$RunnableWithContextImpl.runWithContext(ThreadUtils.java:334)
+	at org.knime.core.util.ThreadUtils$RunnableWithContext.run(ThreadUtils.java:210)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at org.knime.core.util.ThreadPool$MyFuture.run(ThreadPool.java:123)
+	at org.knime.core.util.ThreadPool$Worker.run(ThreadPool.java:246)
+2020-03-02 19:34:29,404 : WARN  : KNIME-Worker-3-Scorer 0:38 :  : NodeContainer : Scorer : 0:38 : Can't continue loop as the workflow was restored with the loop being partially executed. Reset loop start and execute entire loop again.
+org.knime.core.node.workflow.IllegalFlowObjectStackException: Can't continue loop as the workflow was restored with the loop being partially executed. Reset loop start and execute entire loop again.
+	at org.knime.core.node.workflow.WorkflowManager.doBeforeExecution(WorkflowManager.java:2988)
+	at org.knime.core.node.workflow.NodeContainer.notifyParentExecuteStart(NodeContainer.java:601)
+	at org.knime.core.node.workflow.NodeExecutionJob.internalRun(NodeExecutionJob.java:178)
+	at org.knime.core.node.workflow.NodeExecutionJob.run(NodeExecutionJob.java:124)
+	at org.knime.core.util.ThreadUtils$RunnableWithContextImpl.runWithContext(ThreadUtils.java:334)
+	at org.knime.core.util.ThreadUtils$RunnableWithContext.run(ThreadUtils.java:210)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at org.knime.core.util.ThreadPool$MyFuture.run(ThreadPool.java:123)
+	at org.knime.core.util.ThreadPool$Worker.run(ThreadPool.java:246)
+2020-03-02 19:34:29,404 : WARN  : KNIME-Worker-5-Numeric Scorer 0:39 :  : NodeContainer : Numeric Scorer : 0:39 : Can't continue loop as the workflow was restored with the loop being partially executed. Reset loop start and execute entire loop again.
+org.knime.core.node.workflow.IllegalFlowObjectStackException: Can't continue loop as the workflow was restored with the loop being partially executed. Reset loop start and execute entire loop again.
+	at org.knime.core.node.workflow.WorkflowManager.doBeforeExecution(WorkflowManager.java:2988)
+	at org.knime.core.node.workflow.NodeContainer.notifyParentExecuteStart(NodeContainer.java:601)
+	at org.knime.core.node.workflow.NodeExecutionJob.internalRun(NodeExecutionJob.java:178)
+	at org.knime.core.node.workflow.NodeExecutionJob.run(NodeExecutionJob.java:124)
+	at org.knime.core.util.ThreadUtils$RunnableWithContextImpl.runWithContext(ThreadUtils.java:334)
+	at org.knime.core.util.ThreadUtils$RunnableWithContext.run(ThreadUtils.java:210)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at org.knime.core.util.ThreadPool$MyFuture.run(ThreadPool.java:123)
+	at org.knime.core.util.ThreadPool$Worker.run(ThreadPool.java:246)
+2020-03-02 19:34:46,067 : WARN  : KNIME-Worker-11-Numeric Scorer 0:39 :  : Node : Numeric Scorer : 0:39 : Can't calculate Mean Absolute Percentage error: target value is 0! Row2
+2020-03-02 19:36:37,653 : WARN  : KNIME-Worker-12-Numeric Scorer 0:39 :  : Node : Numeric Scorer : 0:39 : Can't calculate Mean Absolute Percentage error: target value is 0! Row2
+2020-03-02 19:37:26,982 : WARN  : main :  : Node : Linear Correlation : 0:40 : Auto configuration: Using all suitable columns (in total 12)
+2020-03-02 19:44:13,070 : WARN  : main :  : Node : SVM Learner : 0:38 : Class column not set
+2020-03-02 19:44:31,181 : WARN  : main :  : Node : SVM Learner : 0:38 : Class column not set
+2020-03-02 19:44:49,298 : WARN  : main :  : Node : SVM Learner : 0:38 : Class column not set
+2020-03-02 19:46:17,080 : WARN  : main :  : Node : String To Number : 0:41 : No columns selected
+2020-03-02 19:46:17,085 : WARN  : main :  : Node : SVM Learner : 0:38 : Class column not set
+2020-03-02 19:46:50,199 : WARN  : main :  : Node : SVM Learner : 0:38 : Class column not set
+2020-03-02 19:46:54,963 : WARN  : main :  : Node : String To Number : 0:41 : No columns selected
+2020-03-02 19:46:54,964 : WARN  : main :  : Node : SVM Learner : 0:38 : Class column not set
+2020-03-02 19:47:06,803 : WARN  : main :  : Node : String To Number : 0:41 : No columns selected
+2020-03-02 19:47:06,805 : WARN  : main :  : Node : SVM Learner : 0:38 : Class column not set
+2020-03-02 19:47:22,555 : WARN  : KNIME-Worker-13-Missing Value 0:35 :  : Node : String To Number : 0:41 : No columns selected
+2020-03-02 19:47:22,561 : WARN  : KNIME-Worker-13-Missing Value 0:35 :  : Node : SVM Learner : 0:38 : Class column not set
+2020-03-02 19:47:22,573 : WARN  : KNIME-Worker-14-String To Number 0:41 :  : Node : String To Number : 0:41 : No columns selected, returning input DataTable.
+2020-03-02 19:47:22,725 : WARN  : KNIME-Worker-15-X-Partitioner 0:33 :  : Node : SVM Learner : 0:38 : Class column not set
+2020-03-02 19:47:38,206 : WARN  : main :  : Node : SVM Learner : 0:38 : Class column not set
+2020-03-02 19:47:44,629 : WARN  : KNIME-Worker-16-X-Partitioner 0:33 :  : Node : SVM Learner : 0:38 : Class column not set
+2020-03-02 19:48:30,968 : WARN  : main :  : Node : SVM Learner : 0:38 : Class column not set
+2020-03-02 19:48:33,286 : WARN  : KNIME-Worker-17-X-Partitioner 0:33 :  : Node : SVM Learner : 0:38 : Class column not set
+2020-03-02 19:49:28,518 : WARN  : main :  : Node : SVM Learner : 0:38 : Class column not set
+2020-03-02 19:49:29,747 : WARN  : main :  : Node : SVM Learner : 0:38 : Class column not set
+2020-03-02 19:49:40,361 : WARN  : main :  : Node : SVM Learner : 0:38 : Class column not set
+2020-03-02 19:49:51,783 : WARN  : KNIME-Worker-18-X-Partitioner 0:33 :  : Node : SVM Learner : 0:38 : Class column not set
+2020-03-02 19:53:24,663 : WARN  : main :  : Node : Linear Correlation : 0:36 : Auto configuration: Using all suitable columns (in total 11)
+2020-03-02 20:01:11,546 : WARN  : KNIME-Worker-25-Statistics 0:38 :  : Node : Statistics : 0:38 : Maximum number of unique possible values (1000) exceeds for column(s): "NU_NOTA_MT"
+2020-03-02 20:01:47,662 : WARN  : KNIME-Worker-31-Statistics 0:38 :  : Node : Statistics : 0:38 : Maximum number of unique possible values (1000) exceeds for column(s): "NU_NOTA_MT","NU_NOTA_CH","NU_NOTA_CN","NU_NOTA_LC"
+2020-03-02 20:02:51,125 : WARN  : KNIME-Worker-34-Scatter Plot (local) 0:39 :  : Node : Scatter Plot (local) : 0:39 : Only the first 2500 rows are displayed.
+2020-03-02 20:08:36,999 : WARN  : main :  : Node : Numeric Scorer : 0:42 : No columns selected for reference
+2020-03-02 20:08:41,627 : WARN  : KNIME-Worker-35-X-Partitioner 0:45 :  : Node : Numeric Scorer : 0:42 : No columns selected for reference
+2020-03-02 20:08:42,049 : WARN  : KNIME-Worker-37-Regression Predictor 0:41 :  : Node : Numeric Scorer : 0:42 : No columns selected for reference
+2020-03-02 20:09:07,305 : WARN  : KNIME-Worker-41-Numeric Scorer 0:42 :  : Node : Numeric Scorer : 0:42 : Can't calculate Mean Absolute Percentage error: target value is 0! Row2
+2020-03-02 20:09:49,496 : WARN  : main :  : Node : Color Manager : 0:43 : No column selected and no categorical column available.
+2020-03-02 20:16:58,085 : WARN  : KNIME-Worker-53-Numeric Scorer 0:52 :  : Node : Numeric Scorer : 0:52 : Can't calculate Mean Absolute Percentage error: target value is 0! Row2
