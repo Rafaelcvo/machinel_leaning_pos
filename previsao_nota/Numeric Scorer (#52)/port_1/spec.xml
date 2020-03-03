@@ -3,7 +3,7 @@
 <entry key="spec_name" type="xstring" value="Scores"/>
 <entry key="number_columns" type="xint" value="1"/>
 <config key="column_spec_0">
-<entry key="column_name" type="xstring" value="Prediction (NU_NOTA_REDACAO)"/>
+<entry key="column_name" type="xstring" value="Prediction (NU_NOTA_MT)"/>
 <config key="element_names">
 <entry key="array-size" type="xint" value="0"/>
 </config>
@@ -14,13 +14,13 @@
 <config key="lower_bound">
 <entry key="datacell" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
 <config key="org.knime.core.data.def.DoubleCell">
-<entry key="DoubleCell" type="xdouble" value="0.878475169002903"/>
+<entry key="DoubleCell" type="xdouble" value="0.9040335444505873"/>
 </config>
 </config>
 <config key="upper_bound">
 <entry key="datacell" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
 <config key="org.knime.core.data.def.DoubleCell">
-<entry key="DoubleCell" type="xdouble" value="6377.088506684994"/>
+<entry key="DoubleCell" type="xdouble" value="3971.6086613559883"/>
 </config>
 </config>
 </config>

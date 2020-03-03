@@ -6,8 +6,8 @@
 <entry key="memory_policy" type="xstring" value="CacheSmallInMemory"/>
 </config>
 <config key="model">
-<entry key="has_custom_predicition_name" type="xboolean" value="false"/>
-<entry key="custom_prediction_name" type="xstring" isnull="true" value=""/>
+<entry key="has_custom_predicition_name" type="xboolean" value="true"/>
+<entry key="custom_prediction_name" type="xstring" value="Prediction (NU_NOTA_MT)"/>
 </config>
 <entry key="customDescription" type="xstring" isnull="true" value=""/>
 <entry key="state" type="xstring" value="EXECUTED"/>

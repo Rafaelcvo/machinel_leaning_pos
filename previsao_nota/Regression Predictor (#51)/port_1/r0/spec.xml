@@ -128,7 +128,7 @@
 <config key="meta_data"/>
 </config>
 <config key="column_spec_5">
-<entry key="column_name" type="xstring" value="NU_NOTA_REDACAO (prediction)"/>
+<entry key="column_name" type="xstring" value="NU_NOTA_MT (prediction)"/>
 <config key="element_names">
 <entry key="array-size" type="xint" value="0"/>
 </config>
@@ -139,13 +139,13 @@
 <config key="lower_bound">
 <entry key="datacell" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
 <config key="org.knime.core.data.def.DoubleCell">
-<entry key="DoubleCell" type="xdouble" value="-65.07580018864674"/>
+<entry key="DoubleCell" type="xdouble" value="-31.422140942436727"/>
 </config>
 </config>
 <config key="upper_bound">
 <entry key="datacell" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
 <config key="org.knime.core.data.def.DoubleCell">
-<entry key="DoubleCell" type="xdouble" value="831.4199143489905"/>
+<entry key="DoubleCell" type="xdouble" value="805.6909539156834"/>
 </config>
 </config>
 </config>

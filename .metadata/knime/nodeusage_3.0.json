@@ -58,7 +58,7 @@
                 "nrfails": 0,
                 "exectime": 4807,
                 "nrcreated": 1,
-                "successor": "org.knime.base.node.meta.xvalidation.AggregateOutputNodeFactory#X-Aggregator"
+                "successor": "org.knime.base.node.mine.scorer.accuracy.AccuracyScorerNodeFactory#Scorer"
             },
             {
                 "id": "org.knime.base.node.meta.xvalidation.AggregateOutputNodeFactory#X-Aggregator",
@@ -79,8 +79,8 @@
             {
                 "id": "org.knime.base.node.mine.scorer.accuracy.AccuracyScorerNodeFactory#Scorer",
                 "nrexecs": 12,
-                "nrfails": 2,
-                "exectime": 95754,
+                "nrfails": 4,
+                "exectime": 95762,
                 "nrcreated": 3,
                 "successor": "n/a"
             },
@@ -250,14 +250,14 @@
         "wrappedNodes": {
         }
     },
-    "uptime": 3763689,
+    "uptime": 2839939,
     "workflowsOpened": 0,
     "remoteWorkflowsOpened": 0,
     "workflowsImported": 0,
     "workflowsExported": 0,
-    "launches": 3,
+    "launches": 4,
     "lastApplicationID": "org.knime.product.KNIME_APPLICATION",
-    "timeSinceLastStart": 2860794,
+    "timeSinceLastStart": 68690,
     "crashes": 0,
-    "properlyShutDown": true
+    "properlyShutDown": false
 }

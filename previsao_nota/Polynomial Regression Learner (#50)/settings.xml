@@ -6,26 +6,33 @@
 <entry key="memory_policy" type="xstring" value="CacheSmallInMemory"/>
 </config>
 <config key="model">
-<entry key="degree" type="xint" value="2"/>
-<entry key="targetColumn" type="xstring" value="NU_NOTA_REDACAO"/>
+<entry key="degree" type="xint" value="4"/>
+<entry key="targetColumn" type="xstring" value="NU_NOTA_MT"/>
 <entry key="maxViewRows" type="xint" value="10000"/>
 <entry key="missing_value_handling" type="xstring" value="fail"/>
 <config key="column filter">
 <entry key="filter-type" type="xstring" value="STANDARD"/>
 <config key="included_names">
-<entry key="array-size" type="xint" value="0"/>
+<entry key="array-size" type="xint" value="4"/>
+<entry key="0" type="xstring" value="NU_NOTA_CN"/>
+<entry key="1" type="xstring" value="NU_NOTA_CH"/>
+<entry key="2" type="xstring" value="NU_NOTA_LC"/>
+<entry key="3" type="xstring" value="NU_NOTA_REDACAO"/>
 </config>
 <config key="excluded_names">
 <entry key="array-size" type="xint" value="0"/>
 </config>
-<entry key="enforce_option" type="xstring" value="EnforceExclusion"/>
+<entry key="enforce_option" type="xstring" value="EnforceInclusion"/>
 <config key="name_pattern">
 <entry key="pattern" type="xstring" value=""/>
 <entry key="type" type="xstring" value="Wildcard"/>
 <entry key="caseSensitive" type="xboolean" value="true"/>
 </config>
 <config key="datatype">
-<config key="typelist"/>
+<config key="typelist">
+<entry key="org.knime.core.data.DoubleValue" type="xboolean" value="true"/>
+<entry key="org.knime.core.data.IntValue" type="xboolean" value="false"/>
+</config>
 </config>
 </config>
 </config>
@@ -66,7 +73,7 @@
 <entry key="index" type="xint" value="3"/>
 <entry key="port_spec_class" type="xstring" value="org.knime.core.data.DataTableSpec"/>
 <entry key="port_object_class" type="xstring" value="org.knime.core.node.BufferedDataTable"/>
-<entry key="port_object_summary" type="xstring" value="Rows: 9, Cols: 6"/>
+<entry key="port_object_summary" type="xstring" value="Rows: 17, Cols: 6"/>
 <entry key="port_dir_location" type="xstring" value="port_3"/>
 </config>
 </config>

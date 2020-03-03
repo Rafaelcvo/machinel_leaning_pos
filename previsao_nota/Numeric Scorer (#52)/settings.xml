@@ -20,18 +20,18 @@
 </config>
 <config key="predicted">
 <entry key="useRowID" type="xboolean" value="false"/>
-<entry key="columnName" type="xstring" value="Prediction (NU_NOTA_REDACAO)"/>
+<entry key="columnName" type="xstring" value="Prediction (NU_NOTA_MT)"/>
 </config>
 <config key="override default output name_Internals">
 <entry key="SettingsModelID" type="xstring" value="SMID_boolean"/>
 <entry key="EnabledStatus" type="xboolean" value="true"/>
 </config>
-<entry key="override default output name" type="xboolean" value="false"/>
+<entry key="override default output name" type="xboolean" value="true"/>
 <config key="output column_Internals">
 <entry key="SettingsModelID" type="xstring" value="SMID_string"/>
-<entry key="EnabledStatus" type="xboolean" value="false"/>
+<entry key="EnabledStatus" type="xboolean" value="true"/>
 </config>
-<entry key="output column" type="xstring" value="Prediction (NU_NOTA_REDACAO)"/>
+<entry key="output column" type="xstring" value="Prediction (NU_NOTA_MT)"/>
 <config key="name prefix for flowvars_Internals">
 <entry key="SettingsModelID" type="xstring" value="SMID_string"/>
 <entry key="EnabledStatus" type="xboolean" value="false"/>
